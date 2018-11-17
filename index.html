@@ -49,7 +49,7 @@
 		<div class="container">
 			<ul class="tsd-breadcrumb">
 				<li>
-					<a href="index.html">Globals</a>
+					<a href="globals.html">Globals</a>
 				</li>
 			</ul>
 			<h1> Annoto Player</h1>
@@ -59,30 +59,102 @@
 <div class="container container-main">
 	<div class="row">
 		<div class="col-8 col-content">
-			<section class="tsd-panel-group tsd-index-group">
-				<h2>Index</h2>
-				<section class="tsd-panel tsd-index-panel">
-					<div class="tsd-index-content">
-						<section class="tsd-index-section ">
-							<h3>External modules</h3>
-							<ul class="tsd-index-list">
-								<li class="tsd-kind-external-module"><a href="modules/annotoplayer.html" class="tsd-kind-icon">annoto<wbr>Player</a></li>
-								<li class="tsd-kind-external-module"><a href="modules/layoutplugin.html" class="tsd-kind-icon">layout<wbr>Plugin</a></li>
-								<li class="tsd-kind-external-module"><a href="modules/pipplugin.html" class="tsd-kind-icon">pip<wbr>Plugin</a></li>
-								<li class="tsd-kind-external-module"><a href="modules/services.html" class="tsd-kind-icon">services</a></li>
-								<li class="tsd-kind-external-module"><a href="modules/timecutplugin.html" class="tsd-kind-icon">timecut<wbr>Plugin</a></li>
-								<li class="tsd-kind-external-module"><a href="modules/widgetservice.html" class="tsd-kind-icon">widget<wbr>Service</a></li>
-							</ul>
-						</section>
-					</div>
-				</section>
-			</section>
+			<div class="tsd-panel tsd-typography">
+				<h1 id="table-of-contents">Table of Contents</h1>
+				<ul>
+					<li><a href="#getting-started">Getting Started</a><ul>
+							<li><a href="#setup">Setup</a></li>
+							<li><a href="#creating-a-player">Creating a Player</a></li>
+							<li><a href="#player-options">Player options</a></li>
+							<li><a href="#player-services">Player services</a></li>
+							<li><a href="#setup-the-widget">Setup the Widget</a></li>
+						</ul>
+					</li>
+					<li><a href="#advanced-workflows">Advanced Workflows</a><ul>
+							<li><a href="#advanced-single-page">Single Page Applications</a></li>
+						</ul>
+					</li>
+				</ul>
+				<h1 id="getting-started">Getting Started</h1>
+				<h2 id="setup">Setup</h2>
+				<p>Annoto player s is officially available via CDN and npm.</p>
+				<p>Annoto works out of the box with not only HTML <code>&lt;script&gt;</code> tag, but also all major bundlers/packagers/builders, such as Browserify, WebPack, etc.</p>
+				<h3 id="npm">NPM</h3>
+				<p>The recomended way to include Annoto player is via npm:</p>
+				<pre><code class="language-sh">$ npm install @annoto/player</code></pre>
+				<blockquote>
+					<p>The package includes full typings and can be used in typescript/ES6/flow projects.</p>
+				</blockquote>
+				<h3 id="cdn">CDN</h3>
+				<pre><code class="language-html"><span class="hljs-tag">&lt;<span class="hljs-name">body</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">annoto-player</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">annoto-player</span>&gt;</span>
+
+    <span class="hljs-tag">&lt;<span class="hljs-name">script</span> <span class="hljs-attr">src</span>=<span class="hljs-string">"https://player.staging.annoto.net/index.js"</span>&gt;</span><span class="undefined"></span><span class="hljs-tag">&lt;/<span class="hljs-name">script</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span></code></pre>
+				<p>To setup the player, please contiue to <a href="#gs-creating-player">Creating a player</a>.</p>
+				<h2 id="creating-a-player">Creating a Player</h2>
+				<p>Annoto player is exposed as <a href="https://github.com/umdjs/umd">UMD module</a>, meaning it offers compatibility with the most popular script loaders and can be imported as commonjs/amd/es6. If you are not using any standard loader the player will be exposed on window as global variables.</p>
+				<p>The simplest way to create a player is using the <code>annotoPlayer()</code> method:</p>
+				<pre><code class="language-ts"><span class="hljs-keyword">import</span> { annotoPlayer, PlayerOptions, PlayerServices } <span class="hljs-keyword">from</span> <span class="hljs-string">'@annoto/player'</span>;
+
+<span class="hljs-keyword">const</span> options: PlayerOptions;
+<span class="hljs-keyword">const</span> services: PlayerServices;
+
+annotoPlayer(<span class="hljs-built_in">document</span>.querySelector(<span class="hljs-string">'annoto-player'</span>), options, services).then(<span class="hljs-function">(<span class="hljs-params">player: AnnotoPlayer</span>) =&gt;</span> {
+    loadWidget(player); 
+
+    <span class="hljs-keyword">return</span> <span class="hljs-keyword">this</span>.player.loadSrc({
+        src: <span class="hljs-string">'https://www.youtube.com/watch?v=1T9EZi7KJcc'</span>,
+        <span class="hljs-keyword">type</span>: <span class="hljs-string">'video/youtube'</span>
+    });
+}).catch(<span class="hljs-function">(<span class="hljs-params">err</span>) =&gt;</span> {
+    <span class="hljs-built_in">console</span>.error(<span class="hljs-string">'player setup error: '</span>, err);
+});</code></pre>
+				<p>This will create a new <a href="modules/annotoplayer.html">AnnotoPlayer</a> instance and setup it for usage.
+				After you have the player instance it can be used to load video sources, setup the Annoto widget and much more.</p>
+				<blockquote>
+					<p>Notice the <code>loadWidget(player)</code> function call, we will implement it when we talk about <a href="#gs-setup-widget">setting up the widget</a>. Loading the widget can be done asynchronous like we are doing in the example above.</p>
+				</blockquote>
+				<h2 id="player-options">Player Options</h2>
+				<p>Annoto Player extends standard <a href="https://docs.videojs.com/tutorial-options.html">VideoJS options</a> with some advanced functionality, for more details, please refer to the <a href="interfaces/annotoplayer.playeroptions.html">API</a>.</p>
+				<p>The default options can be <a href="modules/annotoplayer.html#default_player_options">found here</a>.</p>
+				<h2 id="player-services">Player services</h2>
+				<p>The player accepts a number of <a href="interfaces/annotoplayer.playerservices.html">optional services</a>. The most important one is <a href="interfaces/annotoplayer.authproviderapi.html">AuthProviderApi</a>. For proper Widget Sing Sign On functionality the serive <strong>must</strong> be implemented.</p>
+				<h2 id="setup-the-widget">Setup the Widget</h2>
+				<p>Setting up and loading Annoto Widget is a 2 step process:</p>
+				<pre><code class="language-ts"><span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">loadWidget</span>(<span class="hljs-params">player: AnnotoPlayer</span>) </span>{
+    <span class="hljs-keyword">const</span> options: WidgetOptions;
+
+    <span class="hljs-keyword">return</span> player.setupWidget(options).then(<span class="hljs-function"><span class="hljs-params">()</span> =&gt;</span> {
+        <span class="hljs-keyword">return</span> player.loadWidget();
+    }).catch(<span class="hljs-function">(<span class="hljs-params">err</span>) =&gt;</span> {
+        <span class="hljs-built_in">console</span>.error(<span class="hljs-string">'Annoto widget setup err: '</span>, err);
+    });
+}</code></pre>
+				<ol>
+					<li>First we setup the widget by calling <code>player.setupWidget(options)</code>, this is required only once for the lifecyle of the application, but can be safely called multiple types to update/change the <a href="#interfaces/annotoplayer.widgetoptions.html">widget options</a>. When called multiple times, the new provided options will be merged with previous options so you only need to provide the required changes.
+					All the options are optional, but to use the Annoto Widget in production (not in Demo mode), you would need to set the clientId provided by <a href="https://annoto.net">Annoto</a>.</li>
+					<li>After the widget is setup, we can load it by calling <code>player.loadWidget()</code>.</li>
+				</ol>
+				<h1 id="advanced-workflows">Advanced Workflows</h1>
+				<h2 id="single-page-applications">Single Page Applications</h2>
+				<p>Single page applications dynamically add and remove DOM elements on a single webpage. To provide solution for the dynamic nature of the applications, the player has api to close the player when elements are removed and load the player into new DOM elements:</p>
+				<pre><code class="language-ts">player.setup();
+player.close();
+player.reset();
+player.loadWidget();
+player.closeWidget();</code></pre>
+				<p>For more details please refer to the <a href="classes/annotoplayer.annotoplayer-1.html">API</a>.</p>
+				<blockquote>
+					<p>If you are an Angular developer, please <a href="https://annoto.net">contact us</a>, and we will provide you with a reference code for <a href="https://angular.io/guide/architecture-components">Angular Component</a> of Annoto Player.</p>
+				</blockquote>
+			</div>
 		</div>
 		<div class="col-4 col-menu menu-sticky-wrap menu-highlight">
 			<nav class="tsd-navigation primary">
 				<ul>
-					<li class="globals current ">
-						<a href="index.html"><em>Globals</em></a>
+					<li class="globals  ">
+						<a href="globals.html"><em>Globals</em></a>
 					</li>
 					<li class=" tsd-kind-external-module">
 						<a href="modules/annotoplayer.html">annoto<wbr>Player</a>
