@@ -1,30 +1,18 @@
-[Annoto Player](../README.md) > [timecutPlugin](../modules/timecutplugin.md) > [TimeCutIndicatorComponent](../interfaces/timecutplugin.timecutindicatorcomponent.md)
 
-# Interface: TimeCutIndicatorComponent
 
-## Hierarchy
+# Hierarchy
 
 **TimeCutIndicatorComponent**
 
-## Implemented by
+# Implemented by
 
 * [TimeCutIndicatorComponentImpl](../classes/timecutplugin.timecutindicatorcomponentimpl.md)
 
-## Index
-
-### Properties
-
-* [disable](timecutplugin.timecutindicatorcomponent.md#disable)
-* [dispose](timecutplugin.timecutindicatorcomponent.md#dispose)
-* [update](timecutplugin.timecutindicatorcomponent.md#update)
-
----
-
-## Properties
+# Properties
 
 <a id="disable"></a>
 
-###  disable
+##  disable
 
 **● disable**: *`function`*
 
@@ -36,7 +24,7 @@
 ___
 <a id="dispose"></a>
 
-###  dispose
+##  dispose
 
 **● dispose**: *`function`*
 
@@ -48,7 +36,7 @@ ___
 ___
 <a id="update"></a>
 
-###  update
+##  update
 
 **● update**: *`function`*
 

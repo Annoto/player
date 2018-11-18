@@ -1,43 +1,18 @@
-[Annoto Player](../README.md) > [pipPlugin](../modules/pipplugin.md) > [PipComponentImpl](../classes/pipplugin.pipcomponentimpl.md)
 
-# Class: PipComponentImpl
 
-## Hierarchy
+# Hierarchy
 
 **PipComponentImpl**
 
-## Implements
+# Implements
 
 * [PipPlugin](../interfaces/pipplugin.pipplugin-1.md)
 
-## Index
-
-### Constructors
-
-* [constructor](pipplugin.pipcomponentimpl.md#constructor)
-
-### Properties
-
-* [pipPlayer](pipplugin.pipcomponentimpl.md#pipplayer)
-
-### Methods
-
-* [disable](pipplugin.pipcomponentimpl.md#disable)
-* [dispose](pipplugin.pipcomponentimpl.md#dispose)
-* [enable](pipplugin.pipcomponentimpl.md#enable)
-* [hadnleTimeUpdateEvent](pipplugin.pipcomponentimpl.md#hadnletimeupdateevent)
-* [loadSrc](pipplugin.pipcomponentimpl.md#loadsrc)
-* [ready](pipplugin.pipcomponentimpl.md#ready)
-* [setAspectRatio](pipplugin.pipcomponentimpl.md#setaspectratio)
-* [updateUI](pipplugin.pipcomponentimpl.md#updateui)
-
----
-
-## Constructors
+# Constructors
 
 <a id="constructor"></a>
 
-###  constructor
+##  constructor
 
 ⊕ **new PipComponentImpl**(player: *`Player`*, component: *`Component`*): [PipComponentImpl](pipplugin.pipcomponentimpl.md)
 
@@ -52,21 +27,21 @@
 
 ___
 
-## Properties
+# Properties
 
 <a id="pipplayer"></a>
 
-###  pipPlayer
+##  pipPlayer
 
 **● pipPlayer**: *[PlayerImplementation](../interfaces/annotoplayer.playerimplementation.md)*
 
 ___
 
-## Methods
+# Methods
 
 <a id="disable"></a>
 
-###  disable
+##  disable
 
 ▸ **disable**(): `void`
 
@@ -75,7 +50,7 @@ ___
 ___
 <a id="dispose"></a>
 
-###  dispose
+##  dispose
 
 ▸ **dispose**(): `void`
 
@@ -84,7 +59,7 @@ ___
 ___
 <a id="enable"></a>
 
-###  enable
+##  enable
 
 ▸ **enable**(): `void`
 
@@ -93,7 +68,7 @@ ___
 ___
 <a id="hadnletimeupdateevent"></a>
 
-###  hadnleTimeUpdateEvent
+##  hadnleTimeUpdateEvent
 
 ▸ **hadnleTimeUpdateEvent**(): `void`
 
@@ -104,7 +79,7 @@ Throttled
 ___
 <a id="loadsrc"></a>
 
-###  loadSrc
+##  loadSrc
 
 ▸ **loadSrc**(src: *[SourceObject](../interfaces/annotoplayer.sourceobject.md)*): `void`
 
@@ -119,7 +94,7 @@ ___
 ___
 <a id="ready"></a>
 
-###  ready
+##  ready
 
 ▸ **ready**(): `Promise`<[PlayerImplementation](../interfaces/annotoplayer.playerimplementation.md)>
 
@@ -128,7 +103,7 @@ ___
 ___
 <a id="setaspectratio"></a>
 
-###  setAspectRatio
+##  setAspectRatio
 
 ▸ **setAspectRatio**(ratio: *[PlayerAspectRatio](../modules/annotoplayer.md#playeraspectratio)*): `Promise`<`any`>
 
@@ -143,7 +118,7 @@ ___
 ___
 <a id="updateui"></a>
 
-###  updateUI
+##  updateUI
 
 ▸ **updateUI**(ui: *[PipPluginUI](../interfaces/pipplugin.pippluginui.md)*): `void`
 

@@ -1,30 +1,18 @@
-[Annoto Player](../README.md) > [services](../modules/services.md) > [ConsoleLogger](../classes/services.consolelogger.md)
 
-# Class: ConsoleLogger
 
-## Hierarchy
+# Hierarchy
 
 **ConsoleLogger**
 
-## Implements
+# Implements
 
 * [LoggerApi](../interfaces/services.loggerapi.md)
 
-## Index
-
-### Methods
-
-* [error](services.consolelogger.md#error)
-* [log](services.consolelogger.md#log)
-* [warn](services.consolelogger.md#warn)
-
----
-
-## Methods
+# Methods
 
 <a id="error"></a>
 
-###  error
+##  error
 
 ▸ **error**(...args: *`any`[]*): `void`
 
@@ -39,7 +27,7 @@
 ___
 <a id="log"></a>
 
-###  log
+##  log
 
 ▸ **log**(...args: *`any`[]*): `void`
 
@@ -54,7 +42,7 @@ ___
 ___
 <a id="warn"></a>
 
-###  warn
+##  warn
 
 ▸ **warn**(...args: *`any`[]*): `void`
 

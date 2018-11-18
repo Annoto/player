@@ -1,51 +1,35 @@
-[Annoto Player](../README.md) > [annotoPlayer](../modules/annotoplayer.md) > [WidgetOptions](../interfaces/annotoplayer.widgetoptions.md)
 
-# Interface: WidgetOptions
 
-## Hierarchy
+# Hierarchy
 
 **WidgetOptions**
 
-## Index
-
-### Properties
-
-* [bootstrapUrl](annotoplayer.widgetoptions.md#bootstrapurl)
-* [clientId](annotoplayer.widgetoptions.md#clientid)
-* [locale](annotoplayer.widgetoptions.md#locale)
-* [mediaDetails](annotoplayer.widgetoptions.md#mediadetails)
-* [mediaSrc](annotoplayer.widgetoptions.md#mediasrc)
-* [ux](annotoplayer.widgetoptions.md#ux)
-* [zIndex](annotoplayer.widgetoptions.md#zindex)
-
----
-
-## Properties
+# Properties
 
 <a id="bootstrapurl"></a>
 
-### `<Optional>` bootstrapUrl
+## `<Optional>` bootstrapUrl
 
 **● bootstrapUrl**: *`string`*
 
 ___
 <a id="clientid"></a>
 
-### `<Optional>` clientId
+## `<Optional>` clientId
 
 **● clientId**: *`string`*
 
 ___
 <a id="locale"></a>
 
-### `<Optional>` locale
+## `<Optional>` locale
 
 **● locale**: *`string`*
 
 ___
 <a id="mediadetails"></a>
 
-### `<Optional>` mediaDetails
+## `<Optional>` mediaDetails
 
 **● mediaDetails**: *`function`*
 
@@ -57,7 +41,7 @@ ___
 ___
 <a id="mediasrc"></a>
 
-### `<Optional>` mediaSrc
+## `<Optional>` mediaSrc
 
 **● mediaSrc**: *`function`*
 
@@ -69,14 +53,14 @@ ___
 ___
 <a id="ux"></a>
 
-### `<Optional>` ux
+## `<Optional>` ux
 
 **● ux**: *[WidgetUxOptions](annotoplayer.widgetuxoptions.md)*
 
 ___
 <a id="zindex"></a>
 
-### `<Optional>` zIndex
+## `<Optional>` zIndex
 
 **● zIndex**: *`number`*
 

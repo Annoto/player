@@ -1,8 +1,6 @@
-[Annoto Player](../README.md) > [pipPlugin](../modules/pipplugin.md)
 
-# External module: pipPlugin
 
-## Index
+# Index
 
 ### Classes
 

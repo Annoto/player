@@ -1,41 +1,18 @@
-[Annoto Player](../README.md) > [layoutPlugin](../modules/layoutplugin.md) > [LayoutPluginImpl](../classes/layoutplugin.layoutpluginimpl.md)
 
-# Class: LayoutPluginImpl
 
-## Hierarchy
+# Hierarchy
 
 **LayoutPluginImpl**
 
-## Implements
+# Implements
 
 * [LayoutPlugin](../interfaces/layoutplugin.layoutplugin-1.md)
 
-## Index
-
-### Constructors
-
-* [constructor](layoutplugin.layoutpluginimpl.md#constructor)
-
-### Accessors
-
-* [playerStyleEl](layoutplugin.layoutpluginimpl.md#playerstyleel)
-* [techElement](layoutplugin.layoutpluginimpl.md#techelement)
-
-### Methods
-
-* [disable](layoutplugin.layoutpluginimpl.md#disable)
-* [dispose](layoutplugin.layoutpluginimpl.md#dispose)
-* [enable](layoutplugin.layoutpluginimpl.md#enable)
-* [setLayout](layoutplugin.layoutpluginimpl.md#setlayout)
-* [setLayoutManaged](layoutplugin.layoutpluginimpl.md#setlayoutmanaged)
-
----
-
-## Constructors
+# Constructors
 
 <a id="constructor"></a>
 
-###  constructor
+##  constructor
 
 ⊕ **new LayoutPluginImpl**(player: *`Player`*, plugin: *`Plugin`*, options: *[LayoutPluginOptions](../interfaces/layoutplugin.layoutpluginoptions.md)*): [LayoutPluginImpl](layoutplugin.layoutpluginimpl.md)
 
@@ -51,11 +28,11 @@
 
 ___
 
-## Accessors
+# Accessors
 
 <a id="playerstyleel"></a>
 
-###  playerStyleEl
+##  playerStyleEl
 
 getplayerStyleEl(): `HTMLStyleElement`
 
@@ -64,7 +41,7 @@ getplayerStyleEl(): `HTMLStyleElement`
 ___
 <a id="techelement"></a>
 
-###  techElement
+##  techElement
 
 gettechElement(): `HTMLElement`
 
@@ -72,11 +49,11 @@ gettechElement(): `HTMLElement`
 
 ___
 
-## Methods
+# Methods
 
 <a id="disable"></a>
 
-###  disable
+##  disable
 
 ▸ **disable**(): `void`
 
@@ -85,7 +62,7 @@ ___
 ___
 <a id="dispose"></a>
 
-###  dispose
+##  dispose
 
 ▸ **dispose**(): `void`
 
@@ -94,7 +71,7 @@ ___
 ___
 <a id="enable"></a>
 
-###  enable
+##  enable
 
 ▸ **enable**(): `void`
 
@@ -103,7 +80,7 @@ ___
 ___
 <a id="setlayout"></a>
 
-###  setLayout
+##  setLayout
 
 ▸ **setLayout**(params?: *[LayoutParams](../interfaces/layoutplugin.layoutparams.md)*): `void`
 
@@ -118,7 +95,7 @@ ___
 ___
 <a id="setlayoutmanaged"></a>
 
-###  setLayoutManaged
+##  setLayoutManaged
 
 ▸ **setLayoutManaged**(params?: *[LayoutParams](../interfaces/layoutplugin.layoutparams.md)*): `void`
 

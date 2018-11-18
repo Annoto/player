@@ -1,162 +1,16 @@
-[Annoto Player](../README.md) > [annotoPlayer](../modules/annotoplayer.md) > [PlayerImplementation](../interfaces/annotoplayer.playerimplementation.md)
 
-# Interface: PlayerImplementation
 
-## Hierarchy
+# Hierarchy
 
  `Player`
 
 **↳ PlayerImplementation**
 
-## Index
-
-### Properties
-
-* [Player](annotoplayer.playerimplementation.md#player)
-* [bigPlayButton](annotoplayer.playerimplementation.md#bigplaybutton)
-* [children_](annotoplayer.playerimplementation.md#children_)
-* [controlBar](annotoplayer.playerimplementation.md#controlbar)
-* [errorDisplay](annotoplayer.playerimplementation.md#errordisplay)
-* [layout](annotoplayer.playerimplementation.md#layout)
-* [loadingSpinner](annotoplayer.playerimplementation.md#loadingspinner)
-* [options_](annotoplayer.playerimplementation.md#options_)
-* [pip](annotoplayer.playerimplementation.md#pip)
-* [player_](annotoplayer.playerimplementation.md#player_)
-* [timeCut](annotoplayer.playerimplementation.md#timecut)
-* [userActive_](annotoplayer.playerimplementation.md#useractive_)
-* [userActivity_](annotoplayer.playerimplementation.md#useractivity_)
-
-### Methods
-
-* [$](annotoplayer.playerimplementation.md#_)
-* [$$](annotoplayer.playerimplementation.md#__)
-* [addChild](annotoplayer.playerimplementation.md#addchild)
-* [addClass](annotoplayer.playerimplementation.md#addclass)
-* [addRemoteTextTrack](annotoplayer.playerimplementation.md#addremotetexttrack)
-* [addTextTrack](annotoplayer.playerimplementation.md#addtexttrack)
-* [aspectRatio](annotoplayer.playerimplementation.md#aspectratio)
-* [autoplay](annotoplayer.playerimplementation.md#autoplay)
-* [blur](annotoplayer.playerimplementation.md#blur)
-* [buffered](annotoplayer.playerimplementation.md#buffered)
-* [bufferedEnd](annotoplayer.playerimplementation.md#bufferedend)
-* [bufferedPercent](annotoplayer.playerimplementation.md#bufferedpercent)
-* [buildCSSClass](annotoplayer.playerimplementation.md#buildcssclass)
-* [canPlayType](annotoplayer.playerimplementation.md#canplaytype)
-* [cancelAnimationFrame](annotoplayer.playerimplementation.md#cancelanimationframe)
-* [cancelFullScreen](annotoplayer.playerimplementation.md#cancelfullscreen)
-* [children](annotoplayer.playerimplementation.md#children)
-* [clearInterval](annotoplayer.playerimplementation.md#clearinterval)
-* [clearTimeout](annotoplayer.playerimplementation.md#cleartimeout)
-* [contentEl](annotoplayer.playerimplementation.md#contentel)
-* [controlText](annotoplayer.playerimplementation.md#controltext)
-* [controls](annotoplayer.playerimplementation.md#controls)
-* [createEl](annotoplayer.playerimplementation.md#createel)
-* [createModal](annotoplayer.playerimplementation.md#createmodal)
-* [currentDimension](annotoplayer.playerimplementation.md#currentdimension)
-* [currentDimensions](annotoplayer.playerimplementation.md#currentdimensions)
-* [currentHeight](annotoplayer.playerimplementation.md#currentheight)
-* [currentSource](annotoplayer.playerimplementation.md#currentsource)
-* [currentSources](annotoplayer.playerimplementation.md#currentsources)
-* [currentSrc](annotoplayer.playerimplementation.md#currentsrc)
-* [currentTime](annotoplayer.playerimplementation.md#currenttime)
-* [currentType](annotoplayer.playerimplementation.md#currenttype)
-* [currentWidth](annotoplayer.playerimplementation.md#currentwidth)
-* [defaultMuted](annotoplayer.playerimplementation.md#defaultmuted)
-* [defaultPlaybackRate](annotoplayer.playerimplementation.md#defaultplaybackrate)
-* [dimension](annotoplayer.playerimplementation.md#dimension)
-* [dimensions](annotoplayer.playerimplementation.md#dimensions)
-* [dispose](annotoplayer.playerimplementation.md#dispose)
-* [duration](annotoplayer.playerimplementation.md#duration)
-* [el](annotoplayer.playerimplementation.md#el)
-* [emitTapEvents](annotoplayer.playerimplementation.md#emittapevents)
-* [enableTouchActivity](annotoplayer.playerimplementation.md#enabletouchactivity)
-* [ended](annotoplayer.playerimplementation.md#ended)
-* [enterFullWindow](annotoplayer.playerimplementation.md#enterfullwindow)
-* [error](annotoplayer.playerimplementation.md#error)
-* [exitFullWindow](annotoplayer.playerimplementation.md#exitfullwindow)
-* [exitFullscreen](annotoplayer.playerimplementation.md#exitfullscreen)
-* [fluid](annotoplayer.playerimplementation.md#fluid)
-* [focus](annotoplayer.playerimplementation.md#focus)
-* [getAttribute](annotoplayer.playerimplementation.md#getattribute)
-* [getCache](annotoplayer.playerimplementation.md#getcache)
-* [getChild](annotoplayer.playerimplementation.md#getchild)
-* [getChildById](annotoplayer.playerimplementation.md#getchildbyid)
-* [getVideoPlaybackQuality](annotoplayer.playerimplementation.md#getvideoplaybackquality)
-* [hasClass](annotoplayer.playerimplementation.md#hasclass)
-* [hasPlugin](annotoplayer.playerimplementation.md#hasplugin)
-* [hasStarted](annotoplayer.playerimplementation.md#hasstarted)
-* [height](annotoplayer.playerimplementation.md#height)
-* [hide](annotoplayer.playerimplementation.md#hide)
-* [id](annotoplayer.playerimplementation.md#id)
-* [initChildren](annotoplayer.playerimplementation.md#initchildren)
-* [isAudio](annotoplayer.playerimplementation.md#isaudio)
-* [isFullscreen](annotoplayer.playerimplementation.md#isfullscreen)
-* [language](annotoplayer.playerimplementation.md#language)
-* [languageSwitch](annotoplayer.playerimplementation.md#languageswitch)
-* [languages](annotoplayer.playerimplementation.md#languages)
-* [load](annotoplayer.playerimplementation.md#load)
-* [localize](annotoplayer.playerimplementation.md#localize)
-* [lockShowing](annotoplayer.playerimplementation.md#lockshowing)
-* [loop](annotoplayer.playerimplementation.md#loop)
-* [muted](annotoplayer.playerimplementation.md#muted)
-* [name](annotoplayer.playerimplementation.md#name)
-* [off](annotoplayer.playerimplementation.md#off)
-* [on](annotoplayer.playerimplementation.md#on)
-* [one](annotoplayer.playerimplementation.md#one)
-* [options](annotoplayer.playerimplementation.md#options)
-* [pause](annotoplayer.playerimplementation.md#pause)
-* [paused](annotoplayer.playerimplementation.md#paused)
-* [play](annotoplayer.playerimplementation.md#play)
-* [playbackRate](annotoplayer.playerimplementation.md#playbackrate)
-* [played](annotoplayer.playerimplementation.md#played)
-* [player](annotoplayer.playerimplementation.md#player-1)
-* [playsinline](annotoplayer.playerimplementation.md#playsinline)
-* [poster](annotoplayer.playerimplementation.md#poster)
-* [preload](annotoplayer.playerimplementation.md#preload)
-* [ready](annotoplayer.playerimplementation.md#ready)
-* [remainingTime](annotoplayer.playerimplementation.md#remainingtime)
-* [remainingTimeDisplay](annotoplayer.playerimplementation.md#remainingtimedisplay)
-* [remoteTextTracks](annotoplayer.playerimplementation.md#remotetexttracks)
-* [removeAttribute](annotoplayer.playerimplementation.md#removeattribute)
-* [removeChild](annotoplayer.playerimplementation.md#removechild)
-* [removeClass](annotoplayer.playerimplementation.md#removeclass)
-* [removeRemoteTextTrack](annotoplayer.playerimplementation.md#removeremotetexttrack)
-* [reportUserActivity](annotoplayer.playerimplementation.md#reportuseractivity)
-* [requestAnimationFrame](annotoplayer.playerimplementation.md#requestanimationframe)
-* [requestFullscreen](annotoplayer.playerimplementation.md#requestfullscreen)
-* [reset](annotoplayer.playerimplementation.md#reset)
-* [scrubbing](annotoplayer.playerimplementation.md#scrubbing)
-* [seekable](annotoplayer.playerimplementation.md#seekable)
-* [seeking](annotoplayer.playerimplementation.md#seeking)
-* [selectSource](annotoplayer.playerimplementation.md#selectsource)
-* [setAttribute](annotoplayer.playerimplementation.md#setattribute)
-* [setInterval](annotoplayer.playerimplementation.md#setinterval)
-* [setTimeout](annotoplayer.playerimplementation.md#settimeout)
-* [show](annotoplayer.playerimplementation.md#show)
-* [src](annotoplayer.playerimplementation.md#src)
-* [supportsFullScreen](annotoplayer.playerimplementation.md#supportsfullscreen)
-* [tech](annotoplayer.playerimplementation.md#tech)
-* [textTracks](annotoplayer.playerimplementation.md#texttracks)
-* [toJSON](annotoplayer.playerimplementation.md#tojson)
-* [toggleClass](annotoplayer.playerimplementation.md#toggleclass)
-* [trigger](annotoplayer.playerimplementation.md#trigger)
-* [triggerReady](annotoplayer.playerimplementation.md#triggerready)
-* [unlockShowing](annotoplayer.playerimplementation.md#unlockshowing)
-* [userActive](annotoplayer.playerimplementation.md#useractive)
-* [usingNativeControls](annotoplayer.playerimplementation.md#usingnativecontrols)
-* [usingPlugin](annotoplayer.playerimplementation.md#usingplugin)
-* [videoHeight](annotoplayer.playerimplementation.md#videoheight)
-* [videoWidth](annotoplayer.playerimplementation.md#videowidth)
-* [volume](annotoplayer.playerimplementation.md#volume)
-* [width](annotoplayer.playerimplementation.md#width)
-
----
-
-## Properties
+# Properties
 
 <a id="player"></a>
 
-###  Player
+##  Player
 
 **● Player**: *`object`*
 
@@ -165,35 +19,35 @@
 ___
 <a id="bigplaybutton"></a>
 
-###  bigPlayButton
+##  bigPlayButton
 
 **● bigPlayButton**: *`Button`*
 
 ___
 <a id="children_"></a>
 
-###  children_
+##  children_
 
 **● children_**: *`Component`[]*
 
 ___
 <a id="controlbar"></a>
 
-###  controlBar
+##  controlBar
 
 **● controlBar**: *`ControlBar`*
 
 ___
 <a id="errordisplay"></a>
 
-###  errorDisplay
+##  errorDisplay
 
 **● errorDisplay**: *`ModalDialog`*
 
 ___
 <a id="layout"></a>
 
-###  layout
+##  layout
 
 **● layout**: *`function`*
 
@@ -211,21 +65,21 @@ ___
 ___
 <a id="loadingspinner"></a>
 
-###  loadingSpinner
+##  loadingSpinner
 
 **● loadingSpinner**: *`Component`*
 
 ___
 <a id="options_"></a>
 
-###  options_
+##  options_
 
 **● options_**: *`PlayerOptions`*
 
 ___
 <a id="pip"></a>
 
-###  pip
+##  pip
 
 **● pip**: *`function`*
 
@@ -243,14 +97,14 @@ ___
 ___
 <a id="player_"></a>
 
-###  player_
+##  player_
 
 **● player_**: *`Player`*
 
 ___
 <a id="timecut"></a>
 
-###  timeCut
+##  timeCut
 
 **● timeCut**: *`function`*
 
@@ -268,24 +122,24 @@ ___
 ___
 <a id="useractive_"></a>
 
-###  userActive_
+##  userActive_
 
 **● userActive_**: *`boolean`*
 
 ___
 <a id="useractivity_"></a>
 
-###  userActivity_
+##  userActivity_
 
 **● userActivity_**: *`boolean`*
 
 ___
 
-## Methods
+# Methods
 
 <a id="_"></a>
 
-###  $
+##  $
 
 ▸ **$**(selector: *`string`*, context?: * `string` &#124; `Element`*): `Element`
 
@@ -305,7 +159,7 @@ the dom element that was found, or null
 ___
 <a id="__"></a>
 
-###  $$
+##  $$
 
 ▸ **$$**(selector: *`string`*, context?: * `string` &#124; `Element`*): `NodeList`
 
@@ -325,7 +179,7 @@ a list of dom elements that were found
 ___
 <a id="addchild"></a>
 
-###  addChild
+##  addChild
 
 ▸ **addChild**(component: *`string`*, optionsopt?: *`any`*, indexopt?: *`number`*): `Component`
 
@@ -373,7 +227,7 @@ The `Component` that gets added as a child. When using a string the
 ___
 <a id="addclass"></a>
 
-###  addClass
+##  addClass
 
 ▸ **addClass**(classToAdd: *`string`*): `void`
 
@@ -390,7 +244,7 @@ Add a CSS class name to the `Component`s element.
 ___
 <a id="addremotetexttrack"></a>
 
-###  addRemoteTextTrack
+##  addRemoteTextTrack
 
 ▸ **addRemoteTextTrack**(options: *`TextTrackOptions`*, manualCleanup: *`boolean`*): `HTMLTrackElement`
 
@@ -411,7 +265,7 @@ the HTMLTrackElement that was created and added
 ___
 <a id="addtexttrack"></a>
 
-###  addTextTrack
+##  addTextTrack
 
 ▸ **addTextTrack**(kind?: *`string`*, label?: *`string`*, language?: *`string`*): `void`
 
@@ -435,7 +289,7 @@ the TextTrack that was added or undefined
 ___
 <a id="aspectratio"></a>
 
-###  aspectRatio
+##  aspectRatio
 
 ▸ **aspectRatio**(ratio: *`string`*): `void`
 
@@ -458,7 +312,7 @@ A getter/setter for the `Player`'s aspect ratio.
 ___
 <a id="autoplay"></a>
 
-###  autoplay
+##  autoplay
 
 ▸ **autoplay**(value?: * `boolean` &#124; `string`*): `void`
 
@@ -480,7 +334,7 @@ The current value of autoplay when getting
 ___
 <a id="blur"></a>
 
-###  blur
+##  blur
 
 ▸ **blur**(): `void`
 
@@ -491,7 +345,7 @@ Remove the focus from this component
 ___
 <a id="buffered"></a>
 
-###  buffered
+##  buffered
 
 ▸ **buffered**(): `TimeRange`
 
@@ -504,7 +358,7 @@ A mock TimeRange object (following HTML spec)
 ___
 <a id="bufferedend"></a>
 
-###  bufferedEnd
+##  bufferedEnd
 
 ▸ **bufferedEnd**(): `number`
 
@@ -516,7 +370,7 @@ The end of the last buffered time range
 ___
 <a id="bufferedpercent"></a>
 
-###  bufferedPercent
+##  bufferedPercent
 
 ▸ **bufferedPercent**(): `number`
 
@@ -529,7 +383,7 @@ A decimal between 0 and 1 representing the percent
 ___
 <a id="buildcssclass"></a>
 
-###  buildCSSClass
+##  buildCSSClass
 
 ▸ **buildCSSClass**(): `string`
 
@@ -541,7 +395,7 @@ The DOM class name for this object.
 ___
 <a id="canplaytype"></a>
 
-###  canPlayType
+##  canPlayType
 
 ▸ **canPlayType**(type: *`string`*):  "probably" &#124; "maybe" &#124; `&quot;&quot;`
 
@@ -561,7 +415,7 @@ Check whether the player can play a given mimetype
 ___
 <a id="cancelanimationframe"></a>
 
-###  cancelAnimationFrame
+##  cancelAnimationFrame
 
 ▸ **cancelAnimationFrame**(id: *`number`*): `number`
 
@@ -582,7 +436,7 @@ Returns the rAF ID that was cleared.
 ___
 <a id="cancelfullscreen"></a>
 
-###  cancelFullScreen
+##  cancelFullScreen
 
 ▸ **cancelFullScreen**(): `Player`
 
@@ -591,7 +445,7 @@ ___
 ___
 <a id="children"></a>
 
-###  children
+##  children
 
 ▸ **children**(): `Component`[]
 
@@ -603,7 +457,7 @@ The children
 ___
 <a id="clearinterval"></a>
 
-###  clearInterval
+##  clearInterval
 
 ▸ **clearInterval**(intervalId: *`number`*): `number`
 
@@ -622,7 +476,7 @@ Returns the interval id that was cleared.
 ___
 <a id="cleartimeout"></a>
 
-###  clearTimeout
+##  clearTimeout
 
 ▸ **clearTimeout**(timeoutId: *`number`*): `number`
 
@@ -641,7 +495,7 @@ Returns the timeout id that was cleared.
 ___
 <a id="contentel"></a>
 
-###  contentEl
+##  contentEl
 
 ▸ **contentEl**(): `Element`
 
@@ -653,7 +507,7 @@ The content element for this `Component`.
 ___
 <a id="controltext"></a>
 
-###  controlText
+##  controlText
 
 ▸ **controlText**(key: *`string`*): `string`
 
@@ -668,7 +522,7 @@ ___
 ___
 <a id="controls"></a>
 
-###  controls
+##  controls
 
 ▸ **controls**(bool?: *`boolean`*): `void`
 
@@ -691,7 +545,7 @@ The current value of controls when getting
 ___
 <a id="createel"></a>
 
-###  createEl
+##  createEl
 
 ▸ **createEl**(): `Element`
 
@@ -703,7 +557,7 @@ The DOM element that gets created.
 ___
 <a id="createmodal"></a>
 
-###  createModal
+##  createModal
 
 ▸ **createModal**(content: * `string` &#124; `function` &#124; `Element` &#124; `any`[]*, options: *`any`*): `ModalDialog`
 
@@ -723,7 +577,7 @@ the {@link ModalDialog} that was created
 ___
 <a id="currentdimension"></a>
 
-###  currentDimension
+##  currentDimension
 
 ▸ **currentDimension**(widthOrHeight: * "width" &#124; "height"*): `number`
 
@@ -742,7 +596,7 @@ The dimension that gets asked for or 0 if nothing was set
 ___
 <a id="currentdimensions"></a>
 
-###  currentDimensions
+##  currentDimensions
 
 ▸ **currentDimensions**(): `DimensionObject`
 
@@ -754,7 +608,7 @@ The dimensions of the components element
 ___
 <a id="currentheight"></a>
 
-###  currentHeight
+##  currentHeight
 
 ▸ **currentHeight**(): `number`
 
@@ -767,7 +621,7 @@ height
 ___
 <a id="currentsource"></a>
 
-###  currentSource
+##  currentSource
 
 ▸ **currentSource**(): `SourceObject`
 
@@ -779,7 +633,7 @@ The current source object
 ___
 <a id="currentsources"></a>
 
-###  currentSources
+##  currentSources
 
 ▸ **currentSources**(): `SourceObject`[]
 
@@ -791,7 +645,7 @@ The current source objects
 ___
 <a id="currentsrc"></a>
 
-###  currentSrc
+##  currentSrc
 
 ▸ **currentSrc**(): `string`
 
@@ -803,7 +657,7 @@ The current source
 ___
 <a id="currenttime"></a>
 
-###  currentTime
+##  currentTime
 
 ▸ **currentTime**(seconds: *`number`*): `void`
 
@@ -825,7 +679,7 @@ Get or set the current time (in seconds)
 ___
 <a id="currenttype"></a>
 
-###  currentType
+##  currentType
 
 ▸ **currentType**(): `string`
 
@@ -837,7 +691,7 @@ The source MIME type
 ___
 <a id="currentwidth"></a>
 
-###  currentWidth
+##  currentWidth
 
 ▸ **currentWidth**(): `number`
 
@@ -850,7 +704,7 @@ width
 ___
 <a id="defaultmuted"></a>
 
-###  defaultMuted
+##  defaultMuted
 
 ▸ **defaultMuted**(defaultMuted: *`boolean`*): `void`
 
@@ -887,7 +741,7 @@ Get the current defaultMuted state, or turn defaultMuted on or off. defaultMuted
 ___
 <a id="defaultplaybackrate"></a>
 
-###  defaultPlaybackRate
+##  defaultPlaybackRate
 
 ▸ **defaultPlaybackRate**(rate: *`number`*): `Player`
 
@@ -911,7 +765,7 @@ Gets or sets the current default playback rate. A default playback rate of 1.0 r
 ___
 <a id="dimension"></a>
 
-###  dimension
+##  dimension
 
 ▸ **dimension**(dimension: * "width" &#124; "height"*, value: *`number`*): `void`
 
@@ -940,7 +794,7 @@ The dimension arguments value when getting (width/height).
 ___
 <a id="dimensions"></a>
 
-###  dimensions
+##  dimensions
 
 ▸ **dimensions**(width: * `string` &#124; `number`*, height: * `string` &#124; `number`*): `void`
 
@@ -958,7 +812,7 @@ Set both the width and height of the `Component` element at the same time.
 ___
 <a id="dispose"></a>
 
-###  dispose
+##  dispose
 
 ▸ **dispose**(): `void`
 
@@ -974,7 +828,7 @@ After an instance has been created it can be accessed globally in two ways:
 ___
 <a id="duration"></a>
 
-###  duration
+##  duration
 
 ▸ **duration**(seconds: *`number`*): `void`
 
@@ -999,7 +853,7 @@ Normally gets the length in time of the video in seconds; in all but the rarest 
 ___
 <a id="el"></a>
 
-###  el
+##  el
 
 ▸ **el**(): `Element`
 
@@ -1011,7 +865,7 @@ The DOM element for this `Component`.
 ___
 <a id="emittapevents"></a>
 
-###  emitTapEvents
+##  emitTapEvents
 
 ▸ **emitTapEvents**(): `void`
 
@@ -1033,7 +887,7 @@ Emit a 'tap' events when touch event support gets detected. This gets used to su
 ___
 <a id="enabletouchactivity"></a>
 
-###  enableTouchActivity
+##  enableTouchActivity
 
 ▸ **enableTouchActivity**(): `void`
 
@@ -1055,7 +909,7 @@ User activity gets checked asynchronously. So what could happen is a tap event o
 ___
 <a id="ended"></a>
 
-###  ended
+##  ended
 
 ▸ **ended**(): `boolean`
 
@@ -1070,7 +924,7 @@ Get the value of `ended` from the media element. `ended` indicates whether the m
 ___
 <a id="enterfullwindow"></a>
 
-###  enterFullWindow
+##  enterFullWindow
 
 ▸ **enterFullWindow**(): `void`
 
@@ -1082,7 +936,7 @@ When fullscreen isn't supported we can stretch the video container to as wide as
 ___
 <a id="error"></a>
 
-###  error
+##  error
 
 ▸ **error**(err: * `MediaError` &#124; `string` &#124; `number` &#124; `null`*): `void`
 
@@ -1105,7 +959,7 @@ The current MediaError when getting (or null)
 ___
 <a id="exitfullwindow"></a>
 
-###  exitFullWindow
+##  exitFullWindow
 
 ▸ **exitFullWindow**(): `void`
 
@@ -1117,7 +971,7 @@ Exit full window
 ___
 <a id="exitfullscreen"></a>
 
-###  exitFullscreen
+##  exitFullscreen
 
 ▸ **exitFullscreen**(): `Player`
 
@@ -1129,7 +983,7 @@ Return the video to its normal size after having been in full screen mode
 ___
 <a id="fluid"></a>
 
-###  fluid
+##  fluid
 
 ▸ **fluid**(bool: *`boolean`*): `void`
 
@@ -1152,7 +1006,7 @@ A getter/setter/toggler for the vjs-fluid `className` on the `Player`.
 ___
 <a id="focus"></a>
 
-###  focus
+##  focus
 
 ▸ **focus**(): `void`
 
@@ -1163,7 +1017,7 @@ Set the focus to this component
 ___
 <a id="getattribute"></a>
 
-###  getAttribute
+##  getAttribute
 
 ▸ **getAttribute**(attribute: *`string`*):  `string` &#124; `null`
 
@@ -1187,7 +1041,7 @@ Get the value of an attribute on the `Component`s element.
 ___
 <a id="getcache"></a>
 
-###  getCache
+##  getCache
 
 ▸ **getCache**(): `any`
 
@@ -1199,7 +1053,7 @@ get the current object cache
 ___
 <a id="getchild"></a>
 
-###  getChild
+##  getChild
 
 ▸ **getChild**(name: *`string`*):  `Component` &#124; `undefined`
 
@@ -1218,7 +1072,7 @@ The child `Component` with the given `name` or undefined.
 ___
 <a id="getchildbyid"></a>
 
-###  getChildById
+##  getChildById
 
 ▸ **getChildById**(id: *`string`*):  `Component` &#124; `undefined`
 
@@ -1237,7 +1091,7 @@ The child `Component` with the given `id` or undefined.
 ___
 <a id="getvideoplaybackquality"></a>
 
-###  getVideoPlaybackQuality
+##  getVideoPlaybackQuality
 
 ▸ **getVideoPlaybackQuality**(): `any`
 
@@ -1251,7 +1105,7 @@ An object with supported media playback quality metrics or undefined if there
 ___
 <a id="hasclass"></a>
 
-###  hasClass
+##  hasClass
 
 ▸ **hasClass**(classToCheck: *`string`*): `boolean`
 
@@ -1270,7 +1124,7 @@ Check if a component's element has a CSS class name.
 ___
 <a id="hasplugin"></a>
 
-###  hasPlugin
+##  hasPlugin
 
 ▸ **hasPlugin**(name: *`string`*): `boolean`
 
@@ -1290,7 +1144,7 @@ Whether or not this player has the requested plugin available.
 ___
 <a id="hasstarted"></a>
 
-###  hasStarted
+##  hasStarted
 
 ▸ **hasStarted**(request: *`boolean`*): `void`
 
@@ -1313,7 +1167,7 @@ the boolean value of hasStarted_
 ___
 <a id="height"></a>
 
-###  height
+##  height
 
 ▸ **height**(value: *`number`*): `void`
 
@@ -1335,7 +1189,7 @@ The current height of the `Player` when getting.
 ___
 <a id="hide"></a>
 
-###  hide
+##  hide
 
 ▸ **hide**(): `void`
 
@@ -1346,7 +1200,7 @@ Hide the `Component`s element if it is currently showing by adding the 'vjs-hidd
 ___
 <a id="id"></a>
 
-###  id
+##  id
 
 ▸ **id**(): `string`
 
@@ -1358,7 +1212,7 @@ The id of this `Component`
 ___
 <a id="initchildren"></a>
 
-###  initChildren
+##  initChildren
 
 ▸ **initChildren**(): `void`
 
@@ -1369,7 +1223,7 @@ Add and initialize default child `Component`s based upon options.
 ___
 <a id="isaudio"></a>
 
-###  isAudio
+##  isAudio
 
 ▸ **isAudio**(bool: *`boolean`*): `void`
 
@@ -1391,7 +1245,7 @@ The current value of isAudio when getting
 ___
 <a id="isfullscreen"></a>
 
-###  isFullscreen
+##  isFullscreen
 
 ▸ **isFullscreen**(isFS: *`boolean`*): `void`
 
@@ -1416,7 +1270,7 @@ Check if the player is in fullscreen mode or tell the player that it is or is no
 ___
 <a id="language"></a>
 
-###  language
+##  language
 
 ▸ **language**(code: *`string`*): `void`
 
@@ -1438,7 +1292,7 @@ The current language code when getting
 ___
 <a id="languageswitch"></a>
 
-###  languageSwitch
+##  languageSwitch
 
 ▸ **languageSwitch**(options: *`any`*): `void`
 
@@ -1453,7 +1307,7 @@ ___
 ___
 <a id="languages"></a>
 
-###  languages
+##  languages
 
 ▸ **languages**(): `string`[]
 
@@ -1465,7 +1319,7 @@ An array of of supported languages
 ___
 <a id="load"></a>
 
-###  load
+##  load
 
 ▸ **load**(): `void`
 
@@ -1476,7 +1330,7 @@ Begin loading the src data.
 ___
 <a id="localize"></a>
 
-###  localize
+##  localize
 
 ▸ **localize**(string: *`string`*, tokens?: *`string`[]*, defaultValue?: *`string`*): `string`
 
@@ -1518,7 +1372,7 @@ The localized string or if no localization exists the english string.
 ___
 <a id="lockshowing"></a>
 
-###  lockShowing
+##  lockShowing
 
 ▸ **lockShowing**(): `void`
 
@@ -1529,7 +1383,7 @@ Lock a `Component`s element in its visible state by adding the 'vjs-lock-showing
 ___
 <a id="loop"></a>
 
-###  loop
+##  loop
 
 ▸ **loop**(value?: *`boolean`*): `void`
 
@@ -1551,7 +1405,7 @@ The current value of loop when getting
 ___
 <a id="muted"></a>
 
-###  muted
+##  muted
 
 ▸ **muted**(muted: *`boolean`*): `void`
 
@@ -1574,7 +1428,7 @@ Get the current muted state, or turn mute on or off
 ___
 <a id="name"></a>
 
-###  name
+##  name
 
 ▸ **name**(): `string`
 
@@ -1586,7 +1440,7 @@ The name of this `Component`.
 ___
 <a id="off"></a>
 
-###  off
+##  off
 
 ▸ **off**(target?: * `Component` &#124; `Element`*, type?: * `string` &#124; `string`[]*, listener?: *`function`*): `void`
 
@@ -1616,7 +1470,7 @@ Removes listener(s) from event(s) on an evented object.
 ___
 <a id="on"></a>
 
-###  on
+##  on
 
 ▸ **on**(target?: * `Component` &#124; `Element`*, type?: * `string` &#124; `string`[]*, listener?: *`function`*): `void`
 
@@ -1646,7 +1500,7 @@ Add a listener to an event (or events) on this object or another evented object.
 ___
 <a id="one"></a>
 
-###  one
+##  one
 
 ▸ **one**(target?: * `Component` &#124; `Element`*, type?: * `string` &#124; `string`[]*, listener?: *`function`*): `void`
 
@@ -1676,7 +1530,7 @@ Add a listener to an event (or events) on this object or another evented object.
 ___
 <a id="options"></a>
 
-###  options
+##  options
 
 ▸ **options**(obj: *`any`*): `any`
 
@@ -1697,7 +1551,7 @@ A new object of `this.options_` and `obj` merged together.
 ___
 <a id="pause"></a>
 
-###  pause
+##  pause
 
 ▸ **pause**(): `Player`
 
@@ -1710,7 +1564,7 @@ A reference to the player object this function was called on
 ___
 <a id="paused"></a>
 
-###  paused
+##  paused
 
 ▸ **paused**(): `boolean`
 
@@ -1723,7 +1577,7 @@ Check if the player is paused or has yet to play
 ___
 <a id="play"></a>
 
-###  play
+##  play
 
 ▸ **play**():  `Promise`<`void`> &#124; `undefined`
 
@@ -1739,7 +1593,7 @@ Returns a `Promise` only if the browser returns one and the player
 ___
 <a id="playbackrate"></a>
 
-###  playbackRate
+##  playbackRate
 
 ▸ **playbackRate**(rate?: *`number`*): `void`
 
@@ -1762,7 +1616,7 @@ The current playback rate when getting or 1.0
 ___
 <a id="played"></a>
 
-###  played
+##  played
 
 ▸ **played**(): `any`
 
@@ -1776,7 +1630,7 @@ A time range object that represents all the increments of time that have
 ___
 <a id="player-1"></a>
 
-###  player
+##  player
 
 ▸ **player**(): `Player`
 
@@ -1788,7 +1642,7 @@ The player that this `Component` has attached to.
 ___
 <a id="playsinline"></a>
 
-###  playsinline
+##  playsinline
 
 ▸ **playsinline**(value: *`boolean`*): `Player`
 
@@ -1812,7 +1666,7 @@ Set or unset the playsinline attribute. Playsinline tells the browser that non-f
 ___
 <a id="poster"></a>
 
-###  poster
+##  poster
 
 ▸ **poster**(src: *`string`*): `void`
 
@@ -1835,7 +1689,7 @@ The current value of poster when getting
 ___
 <a id="preload"></a>
 
-###  preload
+##  preload
 
 ▸ **preload**(value?: *`boolean`*): `string`
 
@@ -1853,7 +1707,7 @@ The preload attribute value when getting
 ___
 <a id="ready"></a>
 
-###  ready
+##  ready
 
 ▸ **ready**(callback: *`function`*): `this`
 
@@ -1871,7 +1725,7 @@ Returns itself; method can be chained.
 ___
 <a id="remainingtime"></a>
 
-###  remainingTime
+##  remainingTime
 
 ▸ **remainingTime**(): `number`
 
@@ -1883,7 +1737,7 @@ The time remaining in seconds
 ___
 <a id="remainingtimedisplay"></a>
 
-###  remainingTimeDisplay
+##  remainingTimeDisplay
 
 ▸ **remainingTimeDisplay**(): `number`
 
@@ -1895,7 +1749,7 @@ The rounded time remaining in seconds
 ___
 <a id="remotetexttracks"></a>
 
-###  remoteTextTracks
+##  remoteTextTracks
 
 ▸ **remoteTextTracks**(): `TextTrackList`
 
@@ -1907,7 +1761,7 @@ The current remote text track list
 ___
 <a id="removeattribute"></a>
 
-###  removeAttribute
+##  removeAttribute
 
 ▸ **removeAttribute**(attribute: *`string`*): `void`
 
@@ -1925,7 +1779,7 @@ Remove an attribute from the `Component`s element.
 ___
 <a id="removechild"></a>
 
-###  removeChild
+##  removeChild
 
 ▸ **removeChild**(component: *`Component`*): `void`
 
@@ -1942,7 +1796,7 @@ Remove a child `Component` from this `Component`s list of children. Also removes
 ___
 <a id="removeclass"></a>
 
-###  removeClass
+##  removeClass
 
 ▸ **removeClass**(classToRemove: *`string`*): `void`
 
@@ -1959,7 +1813,7 @@ Remove a CSS class name from the `Component`s element.
 ___
 <a id="removeremotetexttrack"></a>
 
-###  removeRemoteTextTrack
+##  removeRemoteTextTrack
 
 ▸ **removeRemoteTextTrack**(track: *`HTMLTrackElement`*): `void`
 
@@ -1977,7 +1831,7 @@ does not return anything
 ___
 <a id="reportuseractivity"></a>
 
-###  reportUserActivity
+##  reportUserActivity
 
 ▸ **reportUserActivity**(event: *`any`*): `void`
 
@@ -1994,7 +1848,7 @@ Report user activity
 ___
 <a id="requestanimationframe"></a>
 
-###  requestAnimationFrame
+##  requestAnimationFrame
 
 ▸ **requestAnimationFrame**(fn: *`Component.GenericCallback`*): `number`
 
@@ -2023,7 +1877,7 @@ Returns an rAF ID that gets used to identify the timeout. It can
 ___
 <a id="requestfullscreen"></a>
 
-###  requestFullscreen
+##  requestFullscreen
 
 ▸ **requestFullscreen**(): `Player`
 
@@ -2035,7 +1889,7 @@ Increase the size of the video to full screen In some browsers, full screen is n
 ___
 <a id="reset"></a>
 
-###  reset
+##  reset
 
 ▸ **reset**(): `void`
 
@@ -2046,7 +1900,7 @@ Reset the player. Loads the first tech in the techOrder, and calls `reset` on th
 ___
 <a id="scrubbing"></a>
 
-###  scrubbing
+##  scrubbing
 
 ▸ **scrubbing**(isScrubbing: *`boolean`*): `void`
 
@@ -2068,7 +1922,7 @@ The value of scrubbing when getting
 ___
 <a id="seekable"></a>
 
-###  seekable
+##  seekable
 
 ▸ **seekable**(): `TimeRanges`
 
@@ -2080,7 +1934,7 @@ TimeRanges Returns the TimeRanges of the media that are currently available for 
 ___
 <a id="seeking"></a>
 
-###  seeking
+##  seeking
 
 ▸ **seeking**(): `boolean`
 
@@ -2092,7 +1946,7 @@ boolean True if the player is in the seeking state, false if not.
 ___
 <a id="selectsource"></a>
 
-###  selectSource
+##  selectSource
 
 ▸ **selectSource**(sources: *`any`[]*): `any`
 
@@ -2110,7 +1964,7 @@ Object of source and tech order or false
 ___
 <a id="setattribute"></a>
 
-###  setAttribute
+##  setAttribute
 
 ▸ **setAttribute**(attribute: *`string`*, value: *`string`*): `void`
 
@@ -2129,7 +1983,7 @@ Set the value of an attribute on the `Component`'s element
 ___
 <a id="setinterval"></a>
 
-###  setInterval
+##  setInterval
 
 ▸ **setInterval**(fn: *`Component.GenericCallback`*, interval: *`number`*): `number`
 
@@ -2155,7 +2009,7 @@ Returns an id that can be used to identify the interval. It can also be be used 
 ___
 <a id="settimeout"></a>
 
-###  setTimeout
+##  setTimeout
 
 ▸ **setTimeout**(fn: *`Component.GenericCallback`*, timeout: *`number`*): `number`
 
@@ -2184,7 +2038,7 @@ Returns a timeout ID that gets used to identify the timeout. It can also
 ___
 <a id="show"></a>
 
-###  show
+##  show
 
 ▸ **show**(): `void`
 
@@ -2195,7 +2049,7 @@ Show the `Component`s element if it is hidden by removing the 'vjs-hidden' class
 ___
 <a id="src"></a>
 
-###  src
+##  src
 
 ▸ **src**(source: * `string` &#124; `SourceObject` &#124; `SourceObject`[]*): `void`
 
@@ -2218,7 +2072,7 @@ If the `source` argument is missing, returns the current source
 ___
 <a id="supportsfullscreen"></a>
 
-###  supportsFullScreen
+##  supportsFullScreen
 
 ▸ **supportsFullScreen**(): `boolean`
 
@@ -2230,7 +2084,7 @@ if native fullscreen is supported
 ___
 <a id="tech"></a>
 
-###  tech
+##  tech
 
 ▸ **tech**(safety?: *`any`*): `Tech`
 
@@ -2248,7 +2102,7 @@ The Tech
 ___
 <a id="texttracks"></a>
 
-###  textTracks
+##  textTracks
 
 ▸ **textTracks**(): `TextTrackList`
 
@@ -2260,7 +2114,7 @@ The current remote text track list
 ___
 <a id="tojson"></a>
 
-###  toJSON
+##  toJSON
 
 ▸ **toJSON**(): `any`
 
@@ -2272,7 +2126,7 @@ Object representing the current of track info
 ___
 <a id="toggleclass"></a>
 
-###  toggleClass
+##  toggleClass
 
 ▸ **toggleClass**(classToToggle: *`string`*, predicate?: * `boolean` &#124; `Dom.Predicate`*): `void`
 
@@ -2293,7 +2147,7 @@ Add or remove a CSS class name from the component's element.
 ___
 <a id="trigger"></a>
 
-###  trigger
+##  trigger
 
 ▸ **trigger**(event: *`any`*, hash?: *`any`*): `boolean`
 
@@ -2312,7 +2166,7 @@ Whether or not the default behavior was prevented.
 ___
 <a id="triggerready"></a>
 
-###  triggerReady
+##  triggerReady
 
 ▸ **triggerReady**(): `void`
 
@@ -2324,7 +2178,7 @@ Trigger all the ready listeners for this `Component`.
 ___
 <a id="unlockshowing"></a>
 
-###  unlockShowing
+##  unlockShowing
 
 ▸ **unlockShowing**(): `void`
 
@@ -2335,7 +2189,7 @@ Unlock a `Component`s element from its visible state by removing the 'vjs-lock-s
 ___
 <a id="useractive"></a>
 
-###  userActive
+##  userActive
 
 ▸ **userActive**(bool: *`boolean`*): `void`
 
@@ -2360,7 +2214,7 @@ The current value of userActive when getting
 ___
 <a id="usingnativecontrols"></a>
 
-###  usingNativeControls
+##  usingNativeControls
 
 ▸ **usingNativeControls**(bool: *`boolean`*): `void`
 
@@ -2385,7 +2239,7 @@ The current value of native controls when getting
 ___
 <a id="usingplugin"></a>
 
-###  usingPlugin
+##  usingPlugin
 
 ▸ **usingPlugin**(name: *`string`*): `boolean`
 
@@ -2405,7 +2259,7 @@ Whether or not this player is using the requested plugin.
 ___
 <a id="videoheight"></a>
 
-###  videoHeight
+##  videoHeight
 
 ▸ **videoHeight**(): `number`
 
@@ -2417,7 +2271,7 @@ current video height
 ___
 <a id="videowidth"></a>
 
-###  videoWidth
+##  videoWidth
 
 ▸ **videoWidth**(): `number`
 
@@ -2429,7 +2283,7 @@ current video width
 ___
 <a id="volume"></a>
 
-###  volume
+##  volume
 
 ▸ **volume**(percentAsDecimal: *`number`*): `TimeRange`
 
@@ -2451,7 +2305,7 @@ The current volume as a percent when getting
 ___
 <a id="width"></a>
 
-###  width
+##  width
 
 ▸ **width**(value: *`number`*): `void`
 

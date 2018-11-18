@@ -1,29 +1,18 @@
-[Annoto Player](../README.md) > [services](../modules/services.md) > [AssetLoaderApi](../interfaces/services.assetloaderapi.md)
 
-# Interface: AssetLoaderApi
 
-## Hierarchy
+# Hierarchy
 
 **AssetLoaderApi**
 
-## Implemented by
+# Implemented by
 
 * [AssetLoader](../classes/services.assetloader.md)
 
-## Index
-
-### Properties
-
-* [loadCss](services.assetloaderapi.md#loadcss)
-* [loadScript](services.assetloaderapi.md#loadscript)
-
----
-
-## Properties
+# Properties
 
 <a id="loadcss"></a>
 
-###  loadCss
+##  loadCss
 
 **● loadCss**: *`function`*
 
@@ -41,7 +30,7 @@
 ___
 <a id="loadscript"></a>
 
-###  loadScript
+##  loadScript
 
 **● loadScript**: *`function`*
 

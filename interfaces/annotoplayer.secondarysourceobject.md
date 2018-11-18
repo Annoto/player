@@ -1,50 +1,35 @@
-[Annoto Player](../README.md) > [annotoPlayer](../modules/annotoplayer.md) > [SecondarySourceObject](../interfaces/annotoplayer.secondarysourceobject.md)
 
-# Interface: SecondarySourceObject
 
-## Hierarchy
+# Hierarchy
 
 **SecondarySourceObject**
 
-## Index
-
-### Properties
-
-* [aspectRatio](annotoplayer.secondarysourceobject.md#aspectratio)
-* [layout](annotoplayer.secondarysourceobject.md#layout)
-* [src](annotoplayer.secondarysourceobject.md#src)
-* [startTime](annotoplayer.secondarysourceobject.md#starttime)
-* [type](annotoplayer.secondarysourceobject.md#type)
-* [ui](annotoplayer.secondarysourceobject.md#ui)
-
----
-
-## Properties
+# Properties
 
 <a id="aspectratio"></a>
 
-### `<Optional>` aspectRatio
+## `<Optional>` aspectRatio
 
 **● aspectRatio**: *[PlayerAspectRatio](../modules/annotoplayer.md#playeraspectratio)*
 
 ___
 <a id="layout"></a>
 
-### `<Optional>` layout
+## `<Optional>` layout
 
 **● layout**: *[LayoutParams](layoutplugin.layoutparams.md)*
 
 ___
 <a id="src"></a>
 
-###  src
+##  src
 
 **● src**: *`string`*
 
 ___
 <a id="starttime"></a>
 
-### `<Optional>` startTime
+## `<Optional>` startTime
 
 **● startTime**: * `number` &#124; `string`
 *
@@ -52,14 +37,14 @@ ___
 ___
 <a id="type"></a>
 
-### `<Optional>` type
+## `<Optional>` type
 
 **● type**: *[VideoType](../modules/annotoplayer.md#videotype)*
 
 ___
 <a id="ui"></a>
 
-### `<Optional>` ui
+## `<Optional>` ui
 
 **● ui**: *[PipPluginUI](pipplugin.pippluginui.md)*
 

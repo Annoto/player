@@ -124,16 +124,3 @@ For more details please refer to the [API](classes/annotoplayer.annotoplayer-1.h
 
 > If you are an Angular developer, please [contact us](https://annoto.net), and we will provide you with a reference code for [Angular Component](https://angular.io/guide/architecture-components) of Annoto Player.
 
-## Index
-
-### External modules
-
-* [annotoPlayer](modules/annotoplayer.md)
-* [layoutPlugin](modules/layoutplugin.md)
-* [pipPlugin](modules/pipplugin.md)
-* [services](modules/services.md)
-* [timecutPlugin](modules/timecutplugin.md)
-* [widgetService](modules/widgetservice.md)
-
----
-

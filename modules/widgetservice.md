@@ -1,8 +1,6 @@
-[Annoto Player](../README.md) > [widgetService](../modules/widgetservice.md)
 
-# External module: widgetService
 
-## Index
+# Index
 
 ### Interfaces
 
@@ -14,11 +12,11 @@
 
 ---
 
-## Variables
+# Variables
 
 <a id="widgetservice-1"></a>
 
-### `<Const>` widgetService
+## `<Const>` widgetService
 
 **● widgetService**: *[WidgetServiceApi](../interfaces/widgetservice.widgetserviceapi.md)* =  new WidgetService()
 

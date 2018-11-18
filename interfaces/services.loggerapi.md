@@ -1,30 +1,18 @@
-[Annoto Player](../README.md) > [services](../modules/services.md) > [LoggerApi](../interfaces/services.loggerapi.md)
 
-# Interface: LoggerApi
 
-## Hierarchy
+# Hierarchy
 
 **LoggerApi**
 
-## Implemented by
+# Implemented by
 
 * [ConsoleLogger](../classes/services.consolelogger.md)
 
-## Index
-
-### Properties
-
-* [error](services.loggerapi.md#error)
-* [log](services.loggerapi.md#log)
-* [warn](services.loggerapi.md#warn)
-
----
-
-## Properties
+# Properties
 
 <a id="error"></a>
 
-###  error
+##  error
 
 **● error**: *`function`*
 
@@ -42,7 +30,7 @@
 ___
 <a id="log"></a>
 
-###  log
+##  log
 
 **● log**: *`function`*
 
@@ -60,7 +48,7 @@ ___
 ___
 <a id="warn"></a>
 
-###  warn
+##  warn
 
 **● warn**: *`function`*
 

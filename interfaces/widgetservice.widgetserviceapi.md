@@ -1,27 +1,14 @@
-[Annoto Player](../README.md) > [widgetService](../modules/widgetservice.md) > [WidgetServiceApi](../interfaces/widgetservice.widgetserviceapi.md)
 
-# Interface: WidgetServiceApi
 
-## Hierarchy
+# Hierarchy
 
 **WidgetServiceApi**
 
-## Index
-
-### Properties
-
-* [close](widgetservice.widgetserviceapi.md#close)
-* [load](widgetservice.widgetserviceapi.md#load)
-* [setServices](widgetservice.widgetserviceapi.md#setservices)
-* [setup](widgetservice.widgetserviceapi.md#setup)
-
----
-
-## Properties
+# Properties
 
 <a id="close"></a>
 
-###  close
+##  close
 
 **● close**: *`function`*
 
@@ -33,7 +20,7 @@
 ___
 <a id="load"></a>
 
-###  load
+##  load
 
 **● load**: *`function`*
 
@@ -52,7 +39,7 @@ ___
 ___
 <a id="setservices"></a>
 
-###  setServices
+##  setServices
 
 **● setServices**: *`function`*
 
@@ -74,7 +61,7 @@ ___
 ___
 <a id="setup"></a>
 
-###  setup
+##  setup
 
 **● setup**: *`function`*
 

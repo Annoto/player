@@ -1,40 +1,28 @@
-[Annoto Player](../README.md) > [layoutPlugin](../modules/layoutplugin.md) > [Crop](../interfaces/layoutplugin.crop.md)
 
-# Interface: Crop
 
-## Hierarchy
+# Hierarchy
 
 **Crop**
 
-## Index
-
-### Properties
-
-* [offsetX](layoutplugin.crop.md#offsetx)
-* [offsetY](layoutplugin.crop.md#offsety)
-* [trim](layoutplugin.crop.md#trim)
-
----
-
-## Properties
+# Properties
 
 <a id="offsetx"></a>
 
-### `<Optional>` offsetX
+## `<Optional>` offsetX
 
 **● offsetX**: *`number`*
 
 ___
 <a id="offsety"></a>
 
-### `<Optional>` offsetY
+## `<Optional>` offsetY
 
 **● offsetY**: *`number`*
 
 ___
 <a id="trim"></a>
 
-###  trim
+##  trim
 
 **● trim**: *`number`*
 

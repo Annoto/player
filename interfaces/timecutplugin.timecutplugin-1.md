@@ -1,32 +1,18 @@
-[Annoto Player](../README.md) > [timecutPlugin](../modules/timecutplugin.md) > [TimeCutPlugin](../interfaces/timecutplugin.timecutplugin-1.md)
 
-# Interface: TimeCutPlugin
 
-## Hierarchy
+# Hierarchy
 
 **TimeCutPlugin**
 
-## Implemented by
+# Implemented by
 
 * [TimeCutPluginImpl](../classes/timecutplugin.timecutpluginimpl.md)
 
-## Index
-
-### Properties
-
-* [disable](timecutplugin.timecutplugin-1.md#disable)
-* [dispose](timecutplugin.timecutplugin-1.md#dispose)
-* [enable](timecutplugin.timecutplugin-1.md#enable)
-* [setCut](timecutplugin.timecutplugin-1.md#setcut)
-* [setCutManaged](timecutplugin.timecutplugin-1.md#setcutmanaged)
-
----
-
-## Properties
+# Properties
 
 <a id="disable"></a>
 
-###  disable
+##  disable
 
 **● disable**: *`function`*
 
@@ -38,7 +24,7 @@
 ___
 <a id="dispose"></a>
 
-###  dispose
+##  dispose
 
 **● dispose**: *`function`*
 
@@ -50,7 +36,7 @@ ___
 ___
 <a id="enable"></a>
 
-###  enable
+##  enable
 
 **● enable**: *`function`*
 
@@ -62,7 +48,7 @@ ___
 ___
 <a id="setcut"></a>
 
-###  setCut
+##  setCut
 
 **● setCut**: *`function`*
 
@@ -80,7 +66,7 @@ ___
 ___
 <a id="setcutmanaged"></a>
 
-###  setCutManaged
+##  setCutManaged
 
 **● setCutManaged**: *`function`*
 

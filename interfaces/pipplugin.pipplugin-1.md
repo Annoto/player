@@ -1,34 +1,18 @@
-[Annoto Player](../README.md) > [pipPlugin](../modules/pipplugin.md) > [PipPlugin](../interfaces/pipplugin.pipplugin-1.md)
 
-# Interface: PipPlugin
 
-## Hierarchy
+# Hierarchy
 
 **PipPlugin**
 
-## Implemented by
+# Implemented by
 
 * [PipComponentImpl](../classes/pipplugin.pipcomponentimpl.md)
 
-## Index
-
-### Properties
-
-* [disable](pipplugin.pipplugin-1.md#disable)
-* [dispose](pipplugin.pipplugin-1.md#dispose)
-* [enable](pipplugin.pipplugin-1.md#enable)
-* [loadSrc](pipplugin.pipplugin-1.md#loadsrc)
-* [ready](pipplugin.pipplugin-1.md#ready)
-* [setAspectRatio](pipplugin.pipplugin-1.md#setaspectratio)
-* [updateUI](pipplugin.pipplugin-1.md#updateui)
-
----
-
-## Properties
+# Properties
 
 <a id="disable"></a>
 
-###  disable
+##  disable
 
 **● disable**: *`function`*
 
@@ -40,7 +24,7 @@
 ___
 <a id="dispose"></a>
 
-###  dispose
+##  dispose
 
 **● dispose**: *`function`*
 
@@ -52,7 +36,7 @@ ___
 ___
 <a id="enable"></a>
 
-###  enable
+##  enable
 
 **● enable**: *`function`*
 
@@ -64,7 +48,7 @@ ___
 ___
 <a id="loadsrc"></a>
 
-###  loadSrc
+##  loadSrc
 
 **● loadSrc**: *`function`*
 
@@ -82,7 +66,7 @@ ___
 ___
 <a id="ready"></a>
 
-###  ready
+##  ready
 
 **● ready**: *`function`*
 
@@ -94,7 +78,7 @@ ___
 ___
 <a id="setaspectratio"></a>
 
-###  setAspectRatio
+##  setAspectRatio
 
 **● setAspectRatio**: *`function`*
 
@@ -112,7 +96,7 @@ ___
 ___
 <a id="updateui"></a>
 
-###  updateUI
+##  updateUI
 
 **● updateUI**: *`function`*
 

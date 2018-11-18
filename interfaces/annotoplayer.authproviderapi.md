@@ -1,26 +1,14 @@
-[Annoto Player](../README.md) > [annotoPlayer](../modules/annotoplayer.md) > [AuthProviderApi](../interfaces/annotoplayer.authproviderapi.md)
 
-# Interface: AuthProviderApi
 
-## Hierarchy
+# Hierarchy
 
 **AuthProviderApi**
 
-## Index
-
-### Properties
-
-* [authChanges](annotoplayer.authproviderapi.md#authchanges)
-* [getSSOToken](annotoplayer.authproviderapi.md#getssotoken)
-* [isAuthenticated](annotoplayer.authproviderapi.md#isauthenticated)
-
----
-
-## Properties
+# Properties
 
 <a id="authchanges"></a>
 
-###  authChanges
+##  authChanges
 
 **● authChanges**: *`function`*
 
@@ -38,7 +26,7 @@
 ___
 <a id="getssotoken"></a>
 
-###  getSSOToken
+##  getSSOToken
 
 **● getSSOToken**: *`function`*
 
@@ -50,7 +38,7 @@ ___
 ___
 <a id="isauthenticated"></a>
 
-###  isAuthenticated
+##  isAuthenticated
 
 **● isAuthenticated**: *`function`*
 

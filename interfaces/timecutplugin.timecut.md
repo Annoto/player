@@ -1,32 +1,21 @@
-[Annoto Player](../README.md) > [timecutPlugin](../modules/timecutplugin.md) > [TimeCut](../interfaces/timecutplugin.timecut.md)
 
-# Interface: TimeCut
 
-## Hierarchy
+# Hierarchy
 
 **TimeCut**
 
-## Index
-
-### Properties
-
-* [end](timecutplugin.timecut.md#end)
-* [start](timecutplugin.timecut.md#start)
-
----
-
-## Properties
+# Properties
 
 <a id="end"></a>
 
-###  end
+##  end
 
 **● end**: *`number`*
 
 ___
 <a id="start"></a>
 
-###  start
+##  start
 
 **● start**: *`number`*
 

@@ -1,8 +1,6 @@
-[Annoto Player](../README.md) > [layoutPlugin](../modules/layoutplugin.md)
 
-# External module: layoutPlugin
 
-## Index
+# Index
 
 ### Classes
 

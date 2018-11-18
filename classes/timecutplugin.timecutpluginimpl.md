@@ -1,40 +1,18 @@
-[Annoto Player](../README.md) > [timecutPlugin](../modules/timecutplugin.md) > [TimeCutPluginImpl](../classes/timecutplugin.timecutpluginimpl.md)
 
-# Class: TimeCutPluginImpl
 
-## Hierarchy
+# Hierarchy
 
 **TimeCutPluginImpl**
 
-## Implements
+# Implements
 
 * [TimeCutPlugin](../interfaces/timecutplugin.timecutplugin-1.md)
 
-## Index
-
-### Constructors
-
-* [constructor](timecutplugin.timecutpluginimpl.md#constructor)
-
-### Accessors
-
-* [progressControl](timecutplugin.timecutpluginimpl.md#progresscontrol)
-
-### Methods
-
-* [disable](timecutplugin.timecutpluginimpl.md#disable)
-* [dispose](timecutplugin.timecutpluginimpl.md#dispose)
-* [enable](timecutplugin.timecutpluginimpl.md#enable)
-* [setCut](timecutplugin.timecutpluginimpl.md#setcut)
-* [setCutManaged](timecutplugin.timecutpluginimpl.md#setcutmanaged)
-
----
-
-## Constructors
+# Constructors
 
 <a id="constructor"></a>
 
-###  constructor
+##  constructor
 
 ⊕ **new TimeCutPluginImpl**(player: *`Player`*, plugin: *`Plugin`*, options: *[TimeCutPluginOptions](../interfaces/timecutplugin.timecutpluginoptions.md)*): [TimeCutPluginImpl](timecutplugin.timecutpluginimpl.md)
 
@@ -50,11 +28,11 @@
 
 ___
 
-## Accessors
+# Accessors
 
 <a id="progresscontrol"></a>
 
-###  progressControl
+##  progressControl
 
 getprogressControl(): `Component`
 
@@ -62,11 +40,11 @@ getprogressControl(): `Component`
 
 ___
 
-## Methods
+# Methods
 
 <a id="disable"></a>
 
-###  disable
+##  disable
 
 ▸ **disable**(): `void`
 
@@ -75,7 +53,7 @@ ___
 ___
 <a id="dispose"></a>
 
-###  dispose
+##  dispose
 
 ▸ **dispose**(): `void`
 
@@ -84,7 +62,7 @@ ___
 ___
 <a id="enable"></a>
 
-###  enable
+##  enable
 
 ▸ **enable**(): `void`
 
@@ -93,7 +71,7 @@ ___
 ___
 <a id="setcut"></a>
 
-###  setCut
+##  setCut
 
 ▸ **setCut**(cut?: *[TimeCut](../interfaces/timecutplugin.timecut.md)*): `void`
 
@@ -108,7 +86,7 @@ ___
 ___
 <a id="setcutmanaged"></a>
 
-###  setCutManaged
+##  setCutManaged
 
 ▸ **setCutManaged**(cut?: *[TimeCut](../interfaces/timecutplugin.timecut.md)*): `void`
 

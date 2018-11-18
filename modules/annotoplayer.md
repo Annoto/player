@@ -1,8 +1,6 @@
-[Annoto Player](../README.md) > [annotoPlayer](../modules/annotoplayer.md)
 
-# External module: annotoPlayer
 
-## Index
+# Index
 
 ### Classes
 
@@ -39,11 +37,11 @@
 
 ---
 
-## Type aliases
+# Type aliases
 
 <a id="playeraspectratio"></a>
 
-###  PlayerAspectRatio
+##  PlayerAspectRatio
 
 **Ƭ PlayerAspectRatio**: * "239:100" &#124; "16:9" &#124; "16:10" &#124; "4:3" &#124; "100:239" &#124; "9:16" &#124; "10:16" &#124; "3:4" &#124; "auto"
 *
@@ -51,7 +49,7 @@
 ___
 <a id="playerevent"></a>
 
-###  PlayerEvent
+##  PlayerEvent
 
 **Ƭ PlayerEvent**: * "play" &#124; "pause" &#124; "seeked" &#124; "seeking" &#124; "timeupdate" &#124; "fullscreenchange" &#124; "ratechange" &#124; "volumechange" &#124; "loadedmetadata" &#124; "durationchange" &#124; "progress" &#124; "waiting" &#124; "playing" &#124; "loadstart"
 *
@@ -59,7 +57,7 @@ ___
 ___
 <a id="playereventcallback"></a>
 
-###  PlayerEventCallback
+##  PlayerEventCallback
 
 **Ƭ PlayerEventCallback**: *`function`*
 
@@ -77,32 +75,32 @@ ___
 ___
 <a id="texttrackkind"></a>
 
-###  TextTrackKind
+##  TextTrackKind
 
 **Ƭ TextTrackKind**: *`Videojs.TextTrack.Kind`*
 
 ___
 <a id="texttrackmode"></a>
 
-###  TextTrackMode
+##  TextTrackMode
 
 **Ƭ TextTrackMode**: *`Videojs.TextTrack.Mode`*
 
 ___
 <a id="videotype"></a>
 
-###  VideoType
+##  VideoType
 
 **Ƭ VideoType**: * "video/mp4" &#124; "video/webm" &#124; "video/youtube" &#124; "application/x-mpegURL"
 *
 
 ___
 
-## Functions
+# Functions
 
 <a id="annotoplayer-2"></a>
 
-###  annotoPlayer
+##  annotoPlayer
 
 ▸ **annotoPlayer**(elementOrId: * `string` &#124; `HTMLElement`*, options?: *[PlayerOptions](../interfaces/annotoplayer.playeroptions.md)*, services?: *[PlayerServices](../interfaces/annotoplayer.playerservices.md)*): `Promise`<[AnnotoPlayer](../classes/annotoplayer.annotoplayer-1.md)>
 
@@ -119,86 +117,86 @@ Promise that resolves with the player instance
 
 ___
 
-## Object literals
+# Object literals
 
 <a id="default_player_options"></a>
 
-### `<Const>` DEFAULT_PLAYER_OPTIONS
+## `<Const>` DEFAULT_PLAYER_OPTIONS
 
 **DEFAULT_PLAYER_OPTIONS**: *`object`*
 
 <a id="default_player_options.controls"></a>
 
-####  controls
+###  controls
 
 **● controls**: *`true`* = true
 
 ___
 <a id="default_player_options.defaultvolume"></a>
 
-####  defaultVolume
+###  defaultVolume
 
 **● defaultVolume**: *`number`* = 0.5
 
 ___
 <a id="default_player_options.playbackrates"></a>
 
-####  playbackRates
+###  playbackRates
 
 **● playbackRates**: *`number`[]* =  [0.75, 1, 1.25, 1.5, 1.75, 2]
 
 ___
 <a id="default_player_options.playsinline"></a>
 
-####  playsinline
+###  playsinline
 
 **● playsinline**: *`true`* = true
 
 ___
 <a id="default_player_options.preload"></a>
 
-####  preload
+###  preload
 
 **● preload**: *`string`* = "auto"
 
 ___
 <a id="default_player_options.sources"></a>
 
-####  sources
+###  sources
 
 **● sources**: *`undefined`[]* =  []
 
 ___
 <a id="default_player_options.techorder"></a>
 
-####  techOrder
+###  techOrder
 
 **● techOrder**: *`string`[]* =  ['html5', 'youtube']
 
 ___
 <a id="default_player_options.features"></a>
 
-####  features
+###  features
 
 **features**: *`object`*
 
 <a id="default_player_options.features.layout"></a>
 
-####  layout
+###  layout
 
 **● layout**: *`false`* = false
 
 ___
 <a id="default_player_options.features.pip"></a>
 
-####  pip
+###  pip
 
 **● pip**: *`false`* = false
 
 ___
 <a id="default_player_options.features.timecut"></a>
 
-####  timeCut
+###  timeCut
 
 **● timeCut**: *`false`* = false
 
@@ -207,26 +205,26 @@ ___
 ___
 <a id="default_player_options.html5"></a>
 
-####  html5
+###  html5
 
 **html5**: *`object`*
 
 <a id="default_player_options.html5.hls"></a>
 
-####  hls
+###  hls
 
 **hls**: *`object`*
 
 <a id="default_player_options.html5.hls.enablelowinitialplaylist"></a>
 
-####  enableLowInitialPlaylist
+###  enableLowInitialPlaylist
 
 **● enableLowInitialPlaylist**: *`false`* = false
 
 ___
 <a id="default_player_options.html5.hls.overridenative"></a>
 
-####  overrideNative
+###  overrideNative
 
 **● overrideNative**: *`true`* = true
 
@@ -237,47 +235,47 @@ ___
 ___
 <a id="default_player_options.youtube"></a>
 
-####  youtube
+###  youtube
 
 **youtube**: *`object`*
 
 <a id="default_player_options.youtube.disableblockerclick"></a>
 
-####  disableBlockerClick
+###  disableBlockerClick
 
 **● disableBlockerClick**: *`number`* = 1
 
 ___
 <a id="default_player_options.youtube.modestbranding"></a>
 
-####  modestbranding
+###  modestbranding
 
 **● modestbranding**: *`number`* = 1
 
 ___
 <a id="default_player_options.youtube.customvars"></a>
 
-####  customVars
+###  customVars
 
 **customVars**: *`object`*
 
 <a id="default_player_options.youtube.customvars.origin"></a>
 
-####  origin
+###  origin
 
 **● origin**: *`string`* =  location.origin
 
 ___
 <a id="default_player_options.youtube.customvars.playsinline-1"></a>
 
-####  playsinline
+###  playsinline
 
 **● playsinline**: *`number`* = 1
 
 ___
 <a id="default_player_options.youtube.customvars.rel"></a>
 
-####  rel
+###  rel
 
 **● rel**: *`number`* = 0
 

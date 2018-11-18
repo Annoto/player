@@ -1,90 +1,70 @@
-[Annoto Player](../README.md) > [annotoPlayer](../modules/annotoplayer.md) > [SourceObject](../interfaces/annotoplayer.sourceobject.md)
 
-# Interface: SourceObject
 
-## Hierarchy
+# Hierarchy
 
 **SourceObject**
 
-## Index
-
-### Properties
-
-* [aspectRatio](annotoplayer.sourceobject.md#aspectratio)
-* [ccTrack](annotoplayer.sourceobject.md#cctrack)
-* [chaptersTrack](annotoplayer.sourceobject.md#chapterstrack)
-* [layout](annotoplayer.sourceobject.md#layout)
-* [mediaDetails](annotoplayer.sourceobject.md#mediadetails)
-* [poster](annotoplayer.sourceobject.md#poster)
-* [src](annotoplayer.sourceobject.md#src)
-* [srcId](annotoplayer.sourceobject.md#srcid)
-* [startTime](annotoplayer.sourceobject.md#starttime)
-* [timeCut](annotoplayer.sourceobject.md#timecut)
-* [type](annotoplayer.sourceobject.md#type)
-
----
-
-## Properties
+# Properties
 
 <a id="aspectratio"></a>
 
-### `<Optional>` aspectRatio
+## `<Optional>` aspectRatio
 
 **● aspectRatio**: *[PlayerAspectRatio](../modules/annotoplayer.md#playeraspectratio)*
 
 ___
 <a id="cctrack"></a>
 
-### `<Optional>` ccTrack
+## `<Optional>` ccTrack
 
 **● ccTrack**: *`string`*
 
 ___
 <a id="chapterstrack"></a>
 
-### `<Optional>` chaptersTrack
+## `<Optional>` chaptersTrack
 
 **● chaptersTrack**: *`string`*
 
 ___
 <a id="layout"></a>
 
-### `<Optional>` layout
+## `<Optional>` layout
 
 **● layout**: *[LayoutParams](layoutplugin.layoutparams.md)*
 
 ___
 <a id="mediadetails"></a>
 
-### `<Optional>` mediaDetails
+## `<Optional>` mediaDetails
 
 **● mediaDetails**: *`MediaDetails`*
 
 ___
 <a id="poster"></a>
 
-### `<Optional>` poster
+## `<Optional>` poster
 
 **● poster**: *`string`*
 
 ___
 <a id="src"></a>
 
-###  src
+##  src
 
 **● src**: *`string`*
 
 ___
 <a id="srcid"></a>
 
-### `<Optional>` srcId
+## `<Optional>` srcId
 
 **● srcId**: *`string`*
 
 ___
 <a id="starttime"></a>
 
-### `<Optional>` startTime
+## `<Optional>` startTime
 
 **● startTime**: * `number` &#124; `string`
 *
@@ -92,14 +72,14 @@ ___
 ___
 <a id="timecut"></a>
 
-### `<Optional>` timeCut
+## `<Optional>` timeCut
 
 **● timeCut**: *[TimeCut](timecutplugin.timecut.md)*
 
 ___
 <a id="type"></a>
 
-### `<Optional>` type
+## `<Optional>` type
 
 **● type**: *[VideoType](../modules/annotoplayer.md#videotype)*
 

@@ -1,34 +1,18 @@
-[Annoto Player](../README.md) > [timecutPlugin](../modules/timecutplugin.md) > [TimeCutIndicatorComponentImpl](../classes/timecutplugin.timecutindicatorcomponentimpl.md)
 
-# Class: TimeCutIndicatorComponentImpl
 
-## Hierarchy
+# Hierarchy
 
 **TimeCutIndicatorComponentImpl**
 
-## Implements
+# Implements
 
 * [TimeCutIndicatorComponent](../interfaces/timecutplugin.timecutindicatorcomponent.md)
 
-## Index
-
-### Constructors
-
-* [constructor](timecutplugin.timecutindicatorcomponentimpl.md#constructor)
-
-### Methods
-
-* [disable](timecutplugin.timecutindicatorcomponentimpl.md#disable)
-* [dispose](timecutplugin.timecutindicatorcomponentimpl.md#dispose)
-* [update](timecutplugin.timecutindicatorcomponentimpl.md#update)
-
----
-
-## Constructors
+# Constructors
 
 <a id="constructor"></a>
 
-###  constructor
+##  constructor
 
 ⊕ **new TimeCutIndicatorComponentImpl**(player: *`Player`*, component: *`Component`*): [TimeCutIndicatorComponentImpl](timecutplugin.timecutindicatorcomponentimpl.md)
 
@@ -43,11 +27,11 @@
 
 ___
 
-## Methods
+# Methods
 
 <a id="disable"></a>
 
-###  disable
+##  disable
 
 ▸ **disable**(): `void`
 
@@ -56,7 +40,7 @@ ___
 ___
 <a id="dispose"></a>
 
-###  dispose
+##  dispose
 
 ▸ **dispose**(): `void`
 
@@ -65,7 +49,7 @@ ___
 ___
 <a id="update"></a>
 
-###  update
+##  update
 
 ▸ **update**(type: *[TimeCutIndicatorType](../modules/timecutplugin.md#timecutindicatortype)*, time: *`number`*): `void`
 

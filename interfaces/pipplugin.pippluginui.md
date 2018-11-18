@@ -1,26 +1,14 @@
-[Annoto Player](../README.md) > [pipPlugin](../modules/pipplugin.md) > [PipPluginUI](../interfaces/pipplugin.pippluginui.md)
 
-# Interface: PipPluginUI
 
-## Hierarchy
+# Hierarchy
 
 **PipPluginUI**
 
-## Index
-
-### Properties
-
-* [margins](pipplugin.pippluginui.md#margins)
-* [position](pipplugin.pippluginui.md#position)
-* [width](pipplugin.pippluginui.md#width)
-
----
-
-## Properties
+# Properties
 
 <a id="margins"></a>
 
-### `<Optional>` margins
+## `<Optional>` margins
 
 **● margins**: *`object`*
 
@@ -29,7 +17,7 @@
 ___
 <a id="position"></a>
 
-### `<Optional>` position
+## `<Optional>` position
 
 **● position**: * "top:right" &#124; "top:left" &#124; "bottom:right" &#124; "bottom:left"
 *
@@ -37,7 +25,7 @@ ___
 ___
 <a id="width"></a>
 
-### `<Optional>` width
+## `<Optional>` width
 
 **● width**: *`number`*
 

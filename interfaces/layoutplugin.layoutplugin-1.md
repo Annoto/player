@@ -1,32 +1,18 @@
-[Annoto Player](../README.md) > [layoutPlugin](../modules/layoutplugin.md) > [LayoutPlugin](../interfaces/layoutplugin.layoutplugin-1.md)
 
-# Interface: LayoutPlugin
 
-## Hierarchy
+# Hierarchy
 
 **LayoutPlugin**
 
-## Implemented by
+# Implemented by
 
 * [LayoutPluginImpl](../classes/layoutplugin.layoutpluginimpl.md)
 
-## Index
-
-### Properties
-
-* [disable](layoutplugin.layoutplugin-1.md#disable)
-* [dispose](layoutplugin.layoutplugin-1.md#dispose)
-* [enable](layoutplugin.layoutplugin-1.md#enable)
-* [setLayout](layoutplugin.layoutplugin-1.md#setlayout)
-* [setLayoutManaged](layoutplugin.layoutplugin-1.md#setlayoutmanaged)
-
----
-
-## Properties
+# Properties
 
 <a id="disable"></a>
 
-###  disable
+##  disable
 
 **● disable**: *`function`*
 
@@ -38,7 +24,7 @@
 ___
 <a id="dispose"></a>
 
-###  dispose
+##  dispose
 
 **● dispose**: *`function`*
 
@@ -50,7 +36,7 @@ ___
 ___
 <a id="enable"></a>
 
-###  enable
+##  enable
 
 **● enable**: *`function`*
 
@@ -62,7 +48,7 @@ ___
 ___
 <a id="setlayout"></a>
 
-###  setLayout
+##  setLayout
 
 **● setLayout**: *`function`*
 
@@ -80,7 +66,7 @@ ___
 ___
 <a id="setlayoutmanaged"></a>
 
-###  setLayoutManaged
+##  setLayoutManaged
 
 **● setLayoutManaged**: *`function`*
 

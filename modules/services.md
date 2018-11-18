@@ -1,8 +1,6 @@
-[Annoto Player](../README.md) > [services](../modules/services.md)
 
-# External module: services
 
-## Index
+# Index
 
 ### Classes
 

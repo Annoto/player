@@ -1,8 +1,6 @@
-[Annoto Player](../README.md) > [timecutPlugin](../modules/timecutplugin.md)
 
-# External module: timecutPlugin
 
-## Index
+# Index
 
 ### Classes
 
@@ -22,11 +20,11 @@
 
 ---
 
-## Type aliases
+# Type aliases
 
 <a id="timecutindicatortype"></a>
 
-###  TimeCutIndicatorType
+##  TimeCutIndicatorType
 
 **Ƭ TimeCutIndicatorType**: * "start" &#124; "end"
 *

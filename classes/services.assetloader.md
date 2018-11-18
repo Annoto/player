@@ -1,33 +1,18 @@
-[Annoto Player](../README.md) > [services](../modules/services.md) > [AssetLoader](../classes/services.assetloader.md)
 
-# Class: AssetLoader
 
-## Hierarchy
+# Hierarchy
 
 **AssetLoader**
 
-## Implements
+# Implements
 
 * [AssetLoaderApi](../interfaces/services.assetloaderapi.md)
 
-## Index
-
-### Properties
-
-* [loaders](services.assetloader.md#loaders)
-
-### Methods
-
-* [loadCss](services.assetloader.md#loadcss)
-* [loadScript](services.assetloader.md#loadscript)
-
----
-
-## Properties
+# Properties
 
 <a id="loaders"></a>
 
-###  loaders
+##  loaders
 
 **● loaders**: *`object`*
 
@@ -37,11 +22,11 @@
 
 ___
 
-## Methods
+# Methods
 
 <a id="loadcss"></a>
 
-###  loadCss
+##  loadCss
 
 ▸ **loadCss**(href: *`string`*): `Promise`<`void`>
 
@@ -56,7 +41,7 @@ ___
 ___
 <a id="loadscript"></a>
 
-###  loadScript
+##  loadScript
 
 ▸ **loadScript**(src: *`string`*): `Promise`<`void`>
 

@@ -1,32 +1,21 @@
-[Annoto Player](../README.md) > [timecutPlugin](../modules/timecutplugin.md) > [TimeCutPluginOptions](../interfaces/timecutplugin.timecutpluginoptions.md)
 
-# Interface: TimeCutPluginOptions
 
-## Hierarchy
+# Hierarchy
 
 **TimeCutPluginOptions**
 
-## Index
-
-### Properties
-
-* [cut](timecutplugin.timecutpluginoptions.md#cut)
-* [enabled](timecutplugin.timecutpluginoptions.md#enabled)
-
----
-
-## Properties
+# Properties
 
 <a id="cut"></a>
 
-### `<Optional>` cut
+## `<Optional>` cut
 
 **● cut**: *[TimeCut](timecutplugin.timecut.md)*
 
 ___
 <a id="enabled"></a>
 
-### `<Optional>` enabled
+## `<Optional>` enabled
 
 **● enabled**: *`boolean`*
 
