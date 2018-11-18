@@ -1,16 +1,4 @@
 
-Table of Contents
-=================
-
-*   [Getting Started](#getting-started)
-    *   [Setup](#setup)
-    *   [Creating a Player](#creating-a-player)
-    *   [Player options](#player-options)
-    *   [Player services](#player-services)
-    *   [Setup the Widget](#setup-the-widget)
-*   [Advanced Workflows](#advanced-workflows)
-    *   [Single Page Applications](#advanced-single-page)
-
 Getting Started
 ===============
 
@@ -68,21 +56,21 @@ annotoPlayer(document.querySelector('annoto-player'), options, services).then((p
 });
 ```
 
-This will create a new [AnnotoPlayer](modules/annotoplayer.html) instance and setup it for usage. After you have the player instance it can be used to load video sources, setup the Annoto widget and much more.
+This will create a new [AnnotoPlayer](modules/annotoplayer.md) instance and setup it for usage. After you have the player instance it can be used to load video sources, setup the Annoto widget and much more.
 
 > Notice the `loadWidget(player)` function call, we will implement it when we talk about [setting up the widget](#setup-the-widget). Loading the widget can be done asynchronous like we are doing in the example above.
 
 Player Options
 --------------
 
-Annoto Player extends standard [VideoJS options](https://docs.videojs.com/tutorial-options.html) with some advanced functionality, for more details, please refer to the [API](interfaces/annotoplayer.playeroptions.html).
+Annoto Player extends standard [VideoJS options](https://docs.videojs.com/tutorial-options.html) with some advanced functionality, for more details, please refer to the [API](interfaces/annotoplayer.playeroptions.md).
 
-The default options can be [found here](modules/annotoplayer.html#default_player_options).
+The default options can be [found here](modules/annotoplayer.md#default_player_options).
 
 Player services
 ---------------
 
-The player accepts a number of [optional services](interfaces/annotoplayer.playerservices.html). The most important one is [AuthProviderApi](interfaces/annotoplayer.authproviderapi.html). For proper Widget Sing Sign On functionality the serive **must** be implemented.
+The player accepts a number of [optional services](interfaces/annotoplayer.playerservices.md). The most important one is [AuthProviderApi](interfaces/annotoplayer.authproviderapi.md). For proper Widget Sing Sign On functionality the serive **must** be implemented.
 
 Setup the Widget
 ----------------
@@ -101,7 +89,7 @@ function loadWidget(player: AnnotoPlayer) {
 }
 ```
 
-1.  First we setup the widget by calling `player.setupWidget(options)`, this is required only once for the lifecyle of the application, but can be safely called multiple types to update/change the [widget options](#interfaces/annotoplayer.widgetoptions.html). When called multiple times, the new provided options will be merged with previous options so you only need to provide the required changes. All the options are optional, but to use the Annoto Widget in production (not in Demo mode), you would need to set the clientId provided by [Annoto](https://annoto.net).
+1.  First we setup the widget by calling `player.setupWidget(options)`, this is required only once for the lifecyle of the application, but can be safely called multiple types to update/change the [widget options](#interfaces/annotoplayer.widgetoptions.md). When called multiple times, the new provided options will be merged with previous options so you only need to provide the required changes. All the options are optional, but to use the Annoto Widget in production (not in Demo mode), you would need to set the clientId provided by [Annoto](https://annoto.net).
 2.  After the widget is setup, we can load it by calling `player.loadWidget()`.
 
 Advanced Workflows
@@ -120,7 +108,7 @@ player.loadWidget();
 player.closeWidget();
 ```
 
-For more details please refer to the [API](classes/annotoplayer.annotoplayer-1.html).
+For more details please refer to the [API](classes/annotoplayer.annotoplayer-1.md).
 
 > If you are an Angular developer, please [contact us](https://annoto.net), and we will provide you with a reference code for [Angular Component](https://angular.io/guide/architecture-components) of Annoto Player.
 
