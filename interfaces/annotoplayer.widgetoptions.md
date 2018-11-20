@@ -27,30 +27,6 @@ ___
 **● locale**: *`string`*
 
 ___
-<a id="mediadetails"></a>
-
-## `<Optional>` mediaDetails
-
-**● mediaDetails**: *`function`*
-
-#### Type declaration
-▸(): `MediaDetails`
-
-**Returns:** `MediaDetails`
-
-___
-<a id="mediasrc"></a>
-
-## `<Optional>` mediaSrc
-
-**● mediaSrc**: *`function`*
-
-#### Type declaration
-▸(): `string`
-
-**Returns:** `string`
-
-___
 <a id="ux"></a>
 
 ## `<Optional>` ux
@@ -63,6 +39,27 @@ ___
 ## `<Optional>` zIndex
 
 **● zIndex**: *`number`*
+
+___
+
+# Methods
+
+<a id="mediadetails"></a>
+
+## `<Optional>` mediaDetails
+
+▸ **mediaDetails**(): `MediaDetails`
+
+**Returns:** `MediaDetails`
+
+___
+<a id="mediasrc"></a>
+
+## `<Optional>` mediaSrc
+
+▸ **mediaSrc**(): `string`
+
+**Returns:** `string`
 
 ___
 

@@ -4,16 +4,13 @@
 
 **AuthProviderApi**
 
-# Properties
+# Methods
 
 <a id="authchanges"></a>
 
 ##  authChanges
 
-**● authChanges**: *`function`*
-
-#### Type declaration
-▸(cb: *`function`*): `void`
+▸ **authChanges**(cb: *`function`*): `void`
 
 **Parameters:**
 
@@ -28,10 +25,7 @@ ___
 
 ##  getSSOToken
 
-**● getSSOToken**: *`function`*
-
-#### Type declaration
-▸(): `Promise`<`string`>
+▸ **getSSOToken**(): `Promise`<`string`>
 
 **Returns:** `Promise`<`string`>
 
@@ -40,10 +34,7 @@ ___
 
 ##  isAuthenticated
 
-**● isAuthenticated**: *`function`*
-
-#### Type declaration
-▸(): `Promise`<`boolean`>
+▸ **isAuthenticated**(): `Promise`<`boolean`>
 
 **Returns:** `Promise`<`boolean`>
 

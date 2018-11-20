@@ -8,16 +8,13 @@
 
 * [TimeCutPluginImpl](../classes/timecutplugin.timecutpluginimpl.md)
 
-# Properties
+# Methods
 
 <a id="disable"></a>
 
 ##  disable
 
-**● disable**: *`function`*
-
-#### Type declaration
-▸(): `void`
+▸ **disable**(): `void`
 
 **Returns:** `void`
 
@@ -26,10 +23,7 @@ ___
 
 ##  dispose
 
-**● dispose**: *`function`*
-
-#### Type declaration
-▸(): `void`
+▸ **dispose**(): `void`
 
 **Returns:** `void`
 
@@ -38,10 +32,7 @@ ___
 
 ##  enable
 
-**● enable**: *`function`*
-
-#### Type declaration
-▸(): `void`
+▸ **enable**(): `void`
 
 **Returns:** `void`
 
@@ -50,10 +41,7 @@ ___
 
 ##  setCut
 
-**● setCut**: *`function`*
-
-#### Type declaration
-▸(cut: *[TimeCut](timecutplugin.timecut.md)*): `void`
+▸ **setCut**(cut: *[TimeCut](timecutplugin.timecut.md)*): `void`
 
 **Parameters:**
 
@@ -68,12 +56,9 @@ ___
 
 ##  setCutManaged
 
-**● setCutManaged**: *`function`*
+▸ **setCutManaged**(cut: *[TimeCut](timecutplugin.timecut.md)*): `void`
 
 Enables/Disables the plugin according to the cut paramater before setting
-
-#### Type declaration
-▸(cut: *[TimeCut](timecutplugin.timecut.md)*): `void`
 
 **Parameters:**
 

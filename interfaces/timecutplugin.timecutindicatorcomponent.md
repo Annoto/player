@@ -8,16 +8,13 @@
 
 * [TimeCutIndicatorComponentImpl](../classes/timecutplugin.timecutindicatorcomponentimpl.md)
 
-# Properties
+# Methods
 
 <a id="disable"></a>
 
 ##  disable
 
-**● disable**: *`function`*
-
-#### Type declaration
-▸(): `void`
+▸ **disable**(): `void`
 
 **Returns:** `void`
 
@@ -26,10 +23,7 @@ ___
 
 ##  dispose
 
-**● dispose**: *`function`*
-
-#### Type declaration
-▸(): `void`
+▸ **dispose**(): `void`
 
 **Returns:** `void`
 
@@ -38,10 +32,7 @@ ___
 
 ##  update
 
-**● update**: *`function`*
-
-#### Type declaration
-▸(type: *[TimeCutIndicatorType](../modules/timecutplugin.md#timecutindicatortype)*, time: *`number`*): `void`
+▸ **update**(type: *[TimeCutIndicatorType](../modules/timecutplugin.md#timecutindicatortype)*, time: *`number`*): `void`
 
 **Parameters:**
 

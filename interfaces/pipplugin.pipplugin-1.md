@@ -8,16 +8,13 @@
 
 * [PipComponentImpl](../classes/pipplugin.pipcomponentimpl.md)
 
-# Properties
+# Methods
 
 <a id="disable"></a>
 
 ##  disable
 
-**● disable**: *`function`*
-
-#### Type declaration
-▸(): `void`
+▸ **disable**(): `void`
 
 **Returns:** `void`
 
@@ -26,10 +23,7 @@ ___
 
 ##  dispose
 
-**● dispose**: *`function`*
-
-#### Type declaration
-▸(): `void`
+▸ **dispose**(): `void`
 
 **Returns:** `void`
 
@@ -38,10 +32,7 @@ ___
 
 ##  enable
 
-**● enable**: *`function`*
-
-#### Type declaration
-▸(): `void`
+▸ **enable**(): `void`
 
 **Returns:** `void`
 
@@ -50,10 +41,7 @@ ___
 
 ##  loadSrc
 
-**● loadSrc**: *`function`*
-
-#### Type declaration
-▸(src: *[SourceObject](annotoplayer.sourceobject.md)*): `void`
+▸ **loadSrc**(src: *[SourceObject](annotoplayer.sourceobject.md)*): `void`
 
 **Parameters:**
 
@@ -68,10 +56,7 @@ ___
 
 ##  ready
 
-**● ready**: *`function`*
-
-#### Type declaration
-▸(): `Promise`<`PlayerImplementation`>
+▸ **ready**(): `Promise`<`PlayerImplementation`>
 
 **Returns:** `Promise`<`PlayerImplementation`>
 
@@ -80,10 +65,7 @@ ___
 
 ##  setAspectRatio
 
-**● setAspectRatio**: *`function`*
-
-#### Type declaration
-▸(ratio: *[PlayerAspectRatio](../modules/annotoplayer.md#playeraspectratio)*): `void`
+▸ **setAspectRatio**(ratio: *[PlayerAspectRatio](../modules/annotoplayer.md#playeraspectratio)*): `void`
 
 **Parameters:**
 
@@ -98,10 +80,7 @@ ___
 
 ##  updateUI
 
-**● updateUI**: *`function`*
-
-#### Type declaration
-▸(ui: *[PipPluginUI](pipplugin.pippluginui.md)*): `void`
+▸ **updateUI**(ui: *[PipPluginUI](pipplugin.pippluginui.md)*): `void`
 
 **Parameters:**
 

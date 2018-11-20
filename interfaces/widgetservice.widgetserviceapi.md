@@ -6,37 +6,6 @@
 
 # Properties
 
-<a id="close"></a>
-
-##  close
-
-**● close**: *`function`*
-
-#### Type declaration
-▸(): `Promise`<`void`>
-
-**Returns:** `Promise`<`void`>
-
-___
-<a id="load"></a>
-
-##  load
-
-**● load**: *`function`*
-
-#### Type declaration
-▸(playerElement: * `string` &#124; `HTMLElement`*, host?: *`HTMLElement`*): `Promise`<`void`>
-
-**Parameters:**
-
-| Name | Type |
-| ------ | ------ |
-| playerElement |  `string` &#124; `HTMLElement`|
-| `Optional` host | `HTMLElement` |
-
-**Returns:** `Promise`<`void`>
-
-___
 <a id="setservices"></a>
 
 ##  setServices
@@ -59,14 +28,39 @@ ___
 **Returns:** `void`
 
 ___
+
+# Methods
+
+<a id="close"></a>
+
+##  close
+
+▸ **close**(): `Promise`<`void`>
+
+**Returns:** `Promise`<`void`>
+
+___
+<a id="load"></a>
+
+##  load
+
+▸ **load**(playerElement: * `string` &#124; `HTMLElement`*, host?: *`HTMLElement`*): `Promise`<`void`>
+
+**Parameters:**
+
+| Name | Type |
+| ------ | ------ |
+| playerElement |  `string` &#124; `HTMLElement`|
+| `Optional` host | `HTMLElement` |
+
+**Returns:** `Promise`<`void`>
+
+___
 <a id="setup"></a>
 
 ##  setup
 
-**● setup**: *`function`*
-
-#### Type declaration
-▸(options?: *[WidgetOptions](annotoplayer.widgetoptions.md)*): `Promise`<`void`>
+▸ **setup**(options?: *[WidgetOptions](annotoplayer.widgetoptions.md)*): `Promise`<`void`>
 
 **Parameters:**
 

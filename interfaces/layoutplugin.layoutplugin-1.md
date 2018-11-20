@@ -8,16 +8,13 @@
 
 * [LayoutPluginImpl](../classes/layoutplugin.layoutpluginimpl.md)
 
-# Properties
+# Methods
 
 <a id="disable"></a>
 
 ##  disable
 
-**● disable**: *`function`*
-
-#### Type declaration
-▸(): `void`
+▸ **disable**(): `void`
 
 **Returns:** `void`
 
@@ -26,10 +23,7 @@ ___
 
 ##  dispose
 
-**● dispose**: *`function`*
-
-#### Type declaration
-▸(): `void`
+▸ **dispose**(): `void`
 
 **Returns:** `void`
 
@@ -38,10 +32,7 @@ ___
 
 ##  enable
 
-**● enable**: *`function`*
-
-#### Type declaration
-▸(): `void`
+▸ **enable**(): `void`
 
 **Returns:** `void`
 
@@ -50,10 +41,7 @@ ___
 
 ##  setLayout
 
-**● setLayout**: *`function`*
-
-#### Type declaration
-▸(params?: *[LayoutParams](layoutplugin.layoutparams.md)*): `void`
+▸ **setLayout**(params?: *[LayoutParams](layoutplugin.layoutparams.md)*): `void`
 
 **Parameters:**
 
@@ -68,12 +56,9 @@ ___
 
 ##  setLayoutManaged
 
-**● setLayoutManaged**: *`function`*
+▸ **setLayoutManaged**(params?: *[LayoutParams](layoutplugin.layoutparams.md)*): `void`
 
 Enables/Disables the plugin according to the paramaters before setting
-
-#### Type declaration
-▸(params?: *[LayoutParams](layoutplugin.layoutparams.md)*): `void`
 
 **Parameters:**
 

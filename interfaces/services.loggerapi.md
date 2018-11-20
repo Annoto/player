@@ -8,16 +8,13 @@
 
 * [ConsoleLogger](../classes/services.consolelogger.md)
 
-# Properties
+# Methods
 
 <a id="error"></a>
 
 ##  error
 
-**● error**: *`function`*
-
-#### Type declaration
-▸(...args: *`any`[]*): `void`
+▸ **error**(...args: *`any`[]*): `void`
 
 **Parameters:**
 
@@ -32,10 +29,7 @@ ___
 
 ##  log
 
-**● log**: *`function`*
-
-#### Type declaration
-▸(...args: *`any`[]*): `void`
+▸ **log**(...args: *`any`[]*): `void`
 
 **Parameters:**
 
@@ -50,10 +44,7 @@ ___
 
 ##  warn
 
-**● warn**: *`function`*
-
-#### Type declaration
-▸(...args: *`any`[]*): `void`
+▸ **warn**(...args: *`any`[]*): `void`
 
 **Parameters:**
 

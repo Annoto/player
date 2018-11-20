@@ -8,16 +8,13 @@
 
 * [AssetLoader](../classes/services.assetloader.md)
 
-# Properties
+# Methods
 
 <a id="loadcss"></a>
 
 ##  loadCss
 
-**● loadCss**: *`function`*
-
-#### Type declaration
-▸(src: *`string`*): `Promise`<`void`>
+▸ **loadCss**(src: *`string`*): `Promise`<`void`>
 
 **Parameters:**
 
@@ -32,10 +29,7 @@ ___
 
 ##  loadScript
 
-**● loadScript**: *`function`*
-
-#### Type declaration
-▸(src: *`string`*): `Promise`<`void`>
+▸ **loadScript**(src: *`string`*): `Promise`<`void`>
 
 **Parameters:**
 
