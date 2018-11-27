@@ -26,6 +26,11 @@
 * [TextTrackMode](annotoplayer.md#texttrackmode)
 * [VideoType](annotoplayer.md#videotype)
 
+### Variables
+
+* [defaultAssetLoader](annotoplayer.md#defaultassetloader)
+* [defaultLogger](annotoplayer.md#defaultlogger)
+
 ### Functions
 
 * [annotoPlayer](annotoplayer.md#annotoplayer-2)
@@ -92,6 +97,23 @@ ___
 
 **Ƭ VideoType**: * "video/mp4" &#124; "video/webm" &#124; "video/youtube" &#124; "application/x-mpegURL"
 *
+
+___
+
+# Variables
+
+<a id="defaultassetloader"></a>
+
+## `<Const>` defaultAssetLoader
+
+**● defaultAssetLoader**: *[AssetLoader](../classes/services.assetloader.md)* =  new AssetLoader()
+
+___
+<a id="defaultlogger"></a>
+
+## `<Const>` defaultLogger
+
+**● defaultLogger**: *[ConsoleLogger](../classes/services.consolelogger.md)* =  new ConsoleLogger()
 
 ___
 
