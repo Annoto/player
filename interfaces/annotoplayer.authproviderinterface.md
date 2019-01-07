@@ -2,7 +2,7 @@
 
 # Hierarchy
 
-**AuthProviderApi**
+**AuthProviderInterface**
 
 # Methods
 

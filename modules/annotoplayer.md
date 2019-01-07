@@ -8,14 +8,12 @@
 
 ### Interfaces
 
-* [AuthProviderApi](../interfaces/annotoplayer.authproviderapi.md)
+* [AuthProviderInterface](../interfaces/annotoplayer.authproviderinterface.md)
 * [PlayerOptions](../interfaces/annotoplayer.playeroptions.md)
 * [PlayerServices](../interfaces/annotoplayer.playerservices.md)
 * [SecondarySourceObject](../interfaces/annotoplayer.secondarysourceobject.md)
 * [SourceObject](../interfaces/annotoplayer.sourceobject.md)
 * [TextTrackOptions](../interfaces/annotoplayer.texttrackoptions.md)
-* [WidgetOptions](../interfaces/annotoplayer.widgetoptions.md)
-* [WidgetUxOptions](../interfaces/annotoplayer.widgetuxoptions.md)
 
 ### Type aliases
 
@@ -28,8 +26,8 @@
 
 ### Variables
 
-* [defaultAssetLoader](annotoplayer.md#defaultassetloader)
 * [defaultLogger](annotoplayer.md#defaultlogger)
+* [defaultWidget](annotoplayer.md#defaultwidget)
 
 ### Functions
 
@@ -102,18 +100,18 @@ ___
 
 # Variables
 
-<a id="defaultassetloader"></a>
-
-## `<Const>` defaultAssetLoader
-
-**● defaultAssetLoader**: *[AssetLoader](../classes/services.assetloader.md)* =  new AssetLoader()
-
-___
 <a id="defaultlogger"></a>
 
 ## `<Const>` defaultLogger
 
-**● defaultLogger**: *[ConsoleLogger](../classes/services.consolelogger.md)* =  new ConsoleLogger()
+**● defaultLogger**: *`LoggerInterface`* =  getConsoleLogger('AnnotoPlayer')
+
+___
+<a id="defaultwidget"></a>
+
+## `<Const>` defaultWidget
+
+**● defaultWidget**: *`WidgetServiceInterface`* =  widgetService
 
 ___
 

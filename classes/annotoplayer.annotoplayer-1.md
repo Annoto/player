@@ -10,17 +10,14 @@
 
 ##  constructor
 
-⊕ **new AnnotoPlayer**(assetLoader: *[AssetLoaderApi](../interfaces/services.assetloaderapi.md)*, logger: *[LoggerApi](../interfaces/services.loggerapi.md)*, authProvider?: *[AuthProviderApi](../interfaces/annotoplayer.authproviderapi.md)*, deviceDetector?: *`DeviceDetectorApi`*, originProvider?: *`OriginProvider`*): [AnnotoPlayer](annotoplayer.annotoplayer-1.md)
+⊕ **new AnnotoPlayer**(logger: *`LoggerInterface`*, widget: *`WidgetServiceInterface`*): [AnnotoPlayer](annotoplayer.annotoplayer-1.md)
 
 **Parameters:**
 
 | Name | Type |
 | ------ | ------ |
-| assetLoader | [AssetLoaderApi](../interfaces/services.assetloaderapi.md) |
-| logger | [LoggerApi](../interfaces/services.loggerapi.md) |
-| `Optional` authProvider | [AuthProviderApi](../interfaces/annotoplayer.authproviderapi.md) |
-| `Optional` deviceDetector | `DeviceDetectorApi` |
-| `Optional` originProvider | `OriginProvider` |
+| logger | `LoggerInterface` |
+| widget | `WidgetServiceInterface` |
 
 **Returns:** [AnnotoPlayer](annotoplayer.annotoplayer-1.md)
 
@@ -361,13 +358,13 @@ ___
 
 ##  setupWidget
 
-▸ **setupWidget**(options?: *[WidgetOptions](../interfaces/annotoplayer.widgetoptions.md)*): `Promise`<`void`>
+▸ **setupWidget**(options?: *`WidgetOptions`*): `Promise`<`void`>
 
 **Parameters:**
 
 | Name | Type |
 | ------ | ------ |
-| `Optional` options | [WidgetOptions](../interfaces/annotoplayer.widgetoptions.md) |
+| `Optional` options | `WidgetOptions` |
 
 **Returns:** `Promise`<`void`>
 
