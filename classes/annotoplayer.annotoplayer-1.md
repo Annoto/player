@@ -23,6 +23,16 @@
 
 ___
 
+# Properties
+
+<a id="videojs"></a>
+
+##  videojs
+
+**● videojs**: *`any`* =  vjs
+
+___
+
 # Accessors
 
 <a id="aspectratio"></a>
