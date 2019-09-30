@@ -26,8 +26,7 @@
 
 ##  TimeCutIndicatorType
 
-**Ƭ TimeCutIndicatorType**: * "start" &#124; "end"
-*
+**Ƭ TimeCutIndicatorType**: *"start" \| "end"*
 
 ___
 

@@ -20,6 +20,13 @@ ___
 **● sources**: *[SourceObject](annotoplayer.sourceobject.md)[]*
 
 ___
+<a id="takeoversound"></a>
+
+## `<Optional>` takeOverSound
+
+**● takeOverSound**: *`boolean`*
+
+___
 <a id="ui"></a>
 
 ## `<Optional>` ui

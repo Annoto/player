@@ -19,8 +19,7 @@ ___
 
 ## `<Optional>` position
 
-**● position**: * "top:right" &#124; "top:left" &#124; "bottom:right" &#124; "bottom:left"
-*
+**● position**: *"top:right" \| "top:left" \| "bottom:right" \| "bottom:left"*
 
 ___
 <a id="width"></a>

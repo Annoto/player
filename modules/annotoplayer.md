@@ -17,6 +17,7 @@
 
 ### Type aliases
 
+* [AudioSource](annotoplayer.md#audiosource)
 * [PlayerAspectRatio](annotoplayer.md#playeraspectratio)
 * [PlayerEvent](annotoplayer.md#playerevent)
 * [PlayerEventCallback](annotoplayer.md#playereventcallback)
@@ -41,20 +42,25 @@
 
 # Type aliases
 
+<a id="audiosource"></a>
+
+##  AudioSource
+
+**Ƭ AudioSource**: *"primary" \| "secondary"*
+
+___
 <a id="playeraspectratio"></a>
 
 ##  PlayerAspectRatio
 
-**Ƭ PlayerAspectRatio**: * "239:100" &#124; "16:9" &#124; "16:10" &#124; "4:3" &#124; "100:239" &#124; "9:16" &#124; "10:16" &#124; "3:4" &#124; "auto"
-*
+**Ƭ PlayerAspectRatio**: *"239:100" \| "16:9" \| "16:10" \| "4:3" \| "100:239" \| "9:16" \| "10:16" \| "3:4" \| "auto"*
 
 ___
 <a id="playerevent"></a>
 
 ##  PlayerEvent
 
-**Ƭ PlayerEvent**: * "play" &#124; "pause" &#124; "seeked" &#124; "seeking" &#124; "timeupdate" &#124; "fullscreenchange" &#124; "ratechange" &#124; "volumechange" &#124; "loadedmetadata" &#124; "durationchange" &#124; "progress" &#124; "waiting" &#124; "playing" &#124; "loadstart"
-*
+**Ƭ PlayerEvent**: *"play" \| "pause" \| "seeked" \| "seeking" \| "timeupdate" \| "fullscreenchange" \| "ratechange" \| "volumechange" \| "loadedmetadata" \| "durationchange" \| "progress" \| "waiting" \| "playing" \| "loadstart"*
 
 ___
 <a id="playereventcallback"></a>
@@ -93,8 +99,7 @@ ___
 
 ##  VideoType
 
-**Ƭ VideoType**: * "video/mp4" &#124; "video/webm" &#124; "video/youtube" &#124; "application/x-mpegURL"
-*
+**Ƭ VideoType**: *"video/mp4" \| "video/webm" \| "video/youtube" \| "application/x-mpegURL"*
 
 ___
 
@@ -121,13 +126,13 @@ ___
 
 ##  annotoPlayer
 
-▸ **annotoPlayer**(elementOrId: * `string` &#124; `HTMLElement`*, options?: *[PlayerOptions](../interfaces/annotoplayer.playeroptions.md)*, services?: *[PlayerServices](../interfaces/annotoplayer.playerservices.md)*): `Promise`<[AnnotoPlayer](../classes/annotoplayer.annotoplayer-1.md)>
+▸ **annotoPlayer**(elementOrId: *`string` \| `HTMLElement`*, options?: *[PlayerOptions](../interfaces/annotoplayer.playeroptions.md)*, services?: *[PlayerServices](../interfaces/annotoplayer.playerservices.md)*): `Promise`<[AnnotoPlayer](../classes/annotoplayer.annotoplayer-1.md)>
 
 **Parameters:**
 
 | Name | Type | Description |
 | ------ | ------ | ------ |
-| elementOrId |  `string` &#124; `HTMLElement`|  Id of HTMLElement or the element DOM element |
+| elementOrId | `string` \| `HTMLElement` |  Id of HTMLElement or the element DOM element |
 | `Optional` options | [PlayerOptions](../interfaces/annotoplayer.playeroptions.md) |  player options |
 | `Optional` services | [PlayerServices](../interfaces/annotoplayer.playerservices.md) |  player services |
 

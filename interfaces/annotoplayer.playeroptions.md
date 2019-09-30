@@ -19,8 +19,7 @@ ___
 
 ## `<Optional>` autoplay
 
-**● autoplay**: * `boolean` &#124; `string`
-*
+**● autoplay**: *`boolean` \| `string`*
 
 ___
 <a id="children"></a>
@@ -34,8 +33,7 @@ ___
 
 ## `<Optional>` controlBar
 
-**● controlBar**: * `ControlBarOptions` &#124; `false`
-*
+**● controlBar**: *`ControlBarOptions` \| `false`*
 
 ___
 <a id="controls"></a>

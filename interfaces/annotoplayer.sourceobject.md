@@ -66,8 +66,7 @@ ___
 
 ## `<Optional>` startTime
 
-**● startTime**: * `number` &#124; `string`
-*
+**● startTime**: *`number` \| `string`*
 
 ___
 <a id="timecut"></a>

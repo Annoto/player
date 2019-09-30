@@ -105,7 +105,7 @@ ___
 
 ##  addTextTrack
 
-▸ **addTextTrack**(trackOpts: *[TextTrackOptions](../interfaces/annotoplayer.texttrackoptions.md)*):  `Promise`<`void`> &#124; `Promise`<`HTMLTrackElement`>
+▸ **addTextTrack**(trackOpts: *[TextTrackOptions](../interfaces/annotoplayer.texttrackoptions.md)*): `Promise`<`void`> \| `Promise`<`HTMLTrackElement`>
 
 **Parameters:**
 
@@ -113,7 +113,7 @@ ___
 | ------ | ------ |
 | trackOpts | [TextTrackOptions](../interfaces/annotoplayer.texttrackoptions.md) |
 
-**Returns:**  `Promise`<`void`> &#124; `Promise`<`HTMLTrackElement`>
+**Returns:** `Promise`<`void`> \| `Promise`<`HTMLTrackElement`>
 
 ___
 <a id="close"></a>
@@ -147,7 +147,7 @@ ___
 
 ##  loadSrc
 
-▸ **loadSrc**(src?: *[SourceObject](../interfaces/annotoplayer.sourceobject.md)*, pipSrc?: *[SecondarySourceObject](../interfaces/annotoplayer.secondarysourceobject.md)*): `Promise`<[AnnotoPlayer](annotoplayer.annotoplayer-1.md)>
+▸ **loadSrc**(src?: *[SourceObject](../interfaces/annotoplayer.sourceobject.md)*, pipSrc?: *[SecondarySourceObject](../interfaces/annotoplayer.secondarysourceobject.md)*, audioSource?: *[AudioSource](../modules/annotoplayer.md#audiosource)*): `Promise`<[AnnotoPlayer](annotoplayer.annotoplayer-1.md)>
 
 **Parameters:**
 
@@ -155,6 +155,7 @@ ___
 | ------ | ------ |
 | `Optional` src | [SourceObject](../interfaces/annotoplayer.sourceobject.md) |
 | `Optional` pipSrc | [SecondarySourceObject](../interfaces/annotoplayer.secondarysourceobject.md) |
+| `Optional` audioSource | [AudioSource](../modules/annotoplayer.md#audiosource) |
 
 **Returns:** `Promise`<[AnnotoPlayer](annotoplayer.annotoplayer-1.md)>
 
@@ -288,6 +289,21 @@ ___
 **Returns:** `Promise`<`any`>
 
 ___
+<a id="setautiosource"></a>
+
+##  setAutioSource
+
+▸ **setAutioSource**(source?: *[AudioSource](../modules/annotoplayer.md#audiosource)*): `Promise`<`void`>
+
+**Parameters:**
+
+| Name | Type | Default value |
+| ------ | ------ | ------ |
+| `Default value` source | [AudioSource](../modules/annotoplayer.md#audiosource) | &quot;primary&quot; |
+
+**Returns:** `Promise`<`void`>
+
+___
 <a id="setautoplay"></a>
 
 ##  setAutoplay
@@ -352,13 +368,13 @@ ___
 
 ##  setup
 
-▸ **setup**(element: * `string` &#124; `Element`*, options?: *[PlayerOptions](../interfaces/annotoplayer.playeroptions.md)*): `Promise`<`PlayerImplementation`>
+▸ **setup**(element: *`string` \| `Element`*, options?: *[PlayerOptions](../interfaces/annotoplayer.playeroptions.md)*): `Promise`<`PlayerImplementation`>
 
 **Parameters:**
 
 | Name | Type | Default value |
 | ------ | ------ | ------ |
-| element |  `string` &#124; `Element`| - |
+| element | `string` \| `Element` | - |
 | `Default value` options | [PlayerOptions](../interfaces/annotoplayer.playeroptions.md) |  {} |
 
 **Returns:** `Promise`<`PlayerImplementation`>

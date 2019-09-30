@@ -61,6 +61,15 @@ ___
 **Returns:** `Promise`<`PlayerImplementation`>
 
 ___
+<a id="restoresound"></a>
+
+##  restoreSound
+
+▸ **restoreSound**(): `void`
+
+**Returns:** `void`
+
+___
 <a id="setaspectratio"></a>
 
 ##  setAspectRatio
@@ -72,6 +81,15 @@ ___
 | Name | Type |
 | ------ | ------ |
 | ratio | [PlayerAspectRatio](../modules/annotoplayer.md#playeraspectratio) |
+
+**Returns:** `void`
+
+___
+<a id="takeoversound"></a>
+
+##  takeOverSound
+
+▸ **takeOverSound**(): `void`
 
 **Returns:** `void`
 
