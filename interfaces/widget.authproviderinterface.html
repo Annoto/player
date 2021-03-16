@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>TimeCutIndicatorComponent | Annoto Player - v1.4.0</title>
+	<title>AuthProviderInterface | Annoto Player - v1.4.0</title>
 	<meta name="description" content="Documentation for Annoto Player - v1.4.0">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="../assets/css/main.css">
@@ -53,13 +53,13 @@
 					<a href="../index.html">Annoto Player - v1.4.0</a>
 				</li>
 				<li>
-					<a href="../modules/timecutplugin.html">TimecutPlugin</a>
+					<a href="../modules/widget.html">Widget</a>
 				</li>
 				<li>
-					<a href="timecutplugin.timecutindicatorcomponent.html">TimeCutIndicatorComponent</a>
+					<a href="widget.authproviderinterface.html">AuthProviderInterface</a>
 				</li>
 			</ul>
-			<h1>Interface TimeCutIndicatorComponent</h1>
+			<h1>Interface AuthProviderInterface</h1>
 		</div>
 	</div>
 </header>
@@ -70,7 +70,7 @@
 				<h3>Hierarchy</h3>
 				<ul class="tsd-hierarchy">
 					<li>
-						<span class="target">TimeCutIndicatorComponent</span>
+						<span class="target">AuthProviderInterface</span>
 					</li>
 				</ul>
 			</section>
@@ -81,9 +81,9 @@
 						<section class="tsd-index-section ">
 							<h3>Methods</h3>
 							<ul class="tsd-index-list">
-								<li class="tsd-kind-method tsd-parent-kind-interface"><a href="timecutplugin.timecutindicatorcomponent.html#disable" class="tsd-kind-icon">disable</a></li>
-								<li class="tsd-kind-method tsd-parent-kind-interface"><a href="timecutplugin.timecutindicatorcomponent.html#dispose" class="tsd-kind-icon">dispose</a></li>
-								<li class="tsd-kind-method tsd-parent-kind-interface"><a href="timecutplugin.timecutindicatorcomponent.html#update" class="tsd-kind-icon">update</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-interface"><a href="widget.authproviderinterface.html#authchanges" class="tsd-kind-icon">auth<wbr>Changes</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-interface"><a href="widget.authproviderinterface.html#getssotoken" class="tsd-kind-icon">getSSOToken</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-interface"><a href="widget.authproviderinterface.html#isauthenticated" class="tsd-kind-icon">is<wbr>Authenticated</a></li>
 							</ul>
 						</section>
 					</div>
@@ -92,62 +92,77 @@
 			<section class="tsd-panel-group tsd-member-group ">
 				<h2>Methods</h2>
 				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-interface">
-					<a name="disable" class="tsd-anchor"></a>
-					<h3>disable</h3>
+					<a name="authchanges" class="tsd-anchor"></a>
+					<h3>auth<wbr>Changes</h3>
 					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-interface">
-						<li class="tsd-signature tsd-kind-icon">disable<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+						<li class="tsd-signature tsd-kind-icon">auth<wbr>Changes<span class="tsd-signature-symbol">(</span>cb<span class="tsd-signature-symbol">: </span><span class="tsd-signature-symbol">(</span>auth<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">boolean</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
 					</ul>
 					<ul class="tsd-descriptions">
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in scripts/player/plugins/time-cut/index.ts:30</li>
-								</ul>
-							</aside>
-							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
-						</li>
-					</ul>
-				</section>
-				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-interface">
-					<a name="dispose" class="tsd-anchor"></a>
-					<h3>dispose</h3>
-					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-interface">
-						<li class="tsd-signature tsd-kind-icon">dispose<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
-					</ul>
-					<ul class="tsd-descriptions">
-						<li class="tsd-description">
-							<aside class="tsd-sources">
-								<ul>
-									<li>Defined in scripts/player/plugins/time-cut/index.ts:29</li>
-								</ul>
-							</aside>
-							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
-						</li>
-					</ul>
-				</section>
-				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-interface">
-					<a name="update" class="tsd-anchor"></a>
-					<h3>update</h3>
-					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-interface">
-						<li class="tsd-signature tsd-kind-icon">update<span class="tsd-signature-symbol">(</span>type<span class="tsd-signature-symbol">: </span><a href="../modules/timecutplugin.html#timecutindicatortype" class="tsd-signature-type" data-tsd-kind="Type alias">TimeCutIndicatorType</a>, time<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
-					</ul>
-					<ul class="tsd-descriptions">
-						<li class="tsd-description">
-							<aside class="tsd-sources">
-								<ul>
-									<li>Defined in scripts/player/plugins/time-cut/index.ts:31</li>
+									<li>Defined in scripts/widget/interfaces.ts:17</li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
 							<ul class="tsd-parameters">
 								<li>
-									<h5>type: <a href="../modules/timecutplugin.html#timecutindicatortype" class="tsd-signature-type" data-tsd-kind="Type alias">TimeCutIndicatorType</a></h5>
-								</li>
-								<li>
-									<h5>time: <span class="tsd-signature-type">number</span></h5>
+									<h5>cb: <span class="tsd-signature-symbol">(</span>auth<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">boolean</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">void</span></h5>
+									<ul class="tsd-parameters">
+										<li class="tsd-parameter-signature">
+											<ul class="tsd-signatures tsd-kind-type-literal">
+												<li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">(</span>auth<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">boolean</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+											</ul>
+											<ul class="tsd-descriptions">
+												<li class="tsd-description">
+													<h4 class="tsd-parameters-title">Parameters</h4>
+													<ul class="tsd-parameters">
+														<li>
+															<h5>auth: <span class="tsd-signature-type">boolean</span></h5>
+														</li>
+													</ul>
+													<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+												</li>
+											</ul>
+										</li>
+									</ul>
 								</li>
 							</ul>
 							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-interface">
+					<a name="getssotoken" class="tsd-anchor"></a>
+					<h3>getSSOToken</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-interface">
+						<li class="tsd-signature tsd-kind-icon">getSSOToken<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">&gt;</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in scripts/widget/interfaces.ts:16</li>
+								</ul>
+							</aside>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">&gt;</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-interface">
+					<a name="isauthenticated" class="tsd-anchor"></a>
+					<h3>is<wbr>Authenticated</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-interface">
+						<li class="tsd-signature tsd-kind-icon">is<wbr>Authenticated<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">boolean</span><span class="tsd-signature-symbol">&gt;</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in scripts/widget/interfaces.ts:18</li>
+								</ul>
+							</aside>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">boolean</span><span class="tsd-signature-symbol">&gt;</span></h4>
 						</li>
 					</ul>
 				</section>
@@ -174,45 +189,51 @@
 					<li class=" tsd-kind-module">
 						<a href="../modules/player.html">Player</a>
 					</li>
-					<li class="current tsd-kind-module">
+					<li class=" tsd-kind-module">
 						<a href="../modules/timecutplugin.html">Timecut<wbr>Plugin</a>
 					</li>
-					<li class=" tsd-kind-module">
+					<li class="current tsd-kind-module">
 						<a href="../modules/widget.html">Widget</a>
 					</li>
 				</ul>
 			</nav>
 			<nav class="tsd-navigation secondary menu-sticky">
 				<ul class="before-current">
-					<li class=" tsd-kind-interface tsd-parent-kind-module">
-						<a href="timecutplugin.timecut.html" class="tsd-kind-icon">Time<wbr>Cut</a>
+					<li class=" tsd-kind-class tsd-parent-kind-module tsd-has-type-parameter">
+						<a href="../classes/widget.waitfor.html" class="tsd-kind-icon">Wait<wbr>For</a>
+					</li>
+					<li class=" tsd-kind-class tsd-parent-kind-module">
+						<a href="../classes/widget.widgetservice.html" class="tsd-kind-icon">Widget<wbr>Service</a>
 					</li>
 				</ul>
 				<ul class="current">
 					<li class="current tsd-kind-interface tsd-parent-kind-module">
-						<a href="timecutplugin.timecutindicatorcomponent.html" class="tsd-kind-icon">Time<wbr>Cut<wbr>Indicator<wbr>Component</a>
+						<a href="widget.authproviderinterface.html" class="tsd-kind-icon">Auth<wbr>Provider<wbr>Interface</a>
 						<ul>
 							<li class=" tsd-kind-method tsd-parent-kind-interface">
-								<a href="timecutplugin.timecutindicatorcomponent.html#disable" class="tsd-kind-icon">disable</a>
+								<a href="widget.authproviderinterface.html#authchanges" class="tsd-kind-icon">auth<wbr>Changes</a>
 							</li>
 							<li class=" tsd-kind-method tsd-parent-kind-interface">
-								<a href="timecutplugin.timecutindicatorcomponent.html#dispose" class="tsd-kind-icon">dispose</a>
+								<a href="widget.authproviderinterface.html#getssotoken" class="tsd-kind-icon">getSSOToken</a>
 							</li>
 							<li class=" tsd-kind-method tsd-parent-kind-interface">
-								<a href="timecutplugin.timecutindicatorcomponent.html#update" class="tsd-kind-icon">update</a>
+								<a href="widget.authproviderinterface.html#isauthenticated" class="tsd-kind-icon">is<wbr>Authenticated</a>
 							</li>
 						</ul>
 					</li>
 				</ul>
 				<ul class="after-current">
 					<li class=" tsd-kind-interface tsd-parent-kind-module">
-						<a href="timecutplugin.timecutplugin-1.html" class="tsd-kind-icon">Time<wbr>Cut<wbr>Plugin</a>
+						<a href="widget.widgetoptions.html" class="tsd-kind-icon">Widget<wbr>Options</a>
 					</li>
 					<li class=" tsd-kind-interface tsd-parent-kind-module">
-						<a href="timecutplugin.timecutpluginoptions.html" class="tsd-kind-icon">Time<wbr>Cut<wbr>Plugin<wbr>Options</a>
+						<a href="widget.widgetserviceinterface.html" class="tsd-kind-icon">Widget<wbr>Service<wbr>Interface</a>
+					</li>
+					<li class=" tsd-kind-interface tsd-parent-kind-module">
+						<a href="widget.widgetuxoptions.html" class="tsd-kind-icon">Widget<wbr>UxOptions</a>
 					</li>
 					<li class=" tsd-kind-type-alias tsd-parent-kind-module">
-						<a href="../modules/timecutplugin.html#timecutindicatortype" class="tsd-kind-icon">Time<wbr>Cut<wbr>Indicator<wbr>Type</a>
+						<a href="../modules/widget.html#widgetposition" class="tsd-kind-icon">Widget<wbr>Position</a>
 					</li>
 				</ul>
 			</nav>

@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>LayoutParams | Annoto Player - v1.4.0</title>
+	<title>PlayerServices | Annoto Player - v1.4.0</title>
 	<meta name="description" content="Documentation for Annoto Player - v1.4.0">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="../assets/css/main.css">
@@ -53,13 +53,13 @@
 					<a href="../index.html">Annoto Player - v1.4.0</a>
 				</li>
 				<li>
-					<a href="../modules/layoutplugin.html">LayoutPlugin</a>
+					<a href="../modules/main.html">Main</a>
 				</li>
 				<li>
-					<a href="layoutplugin.layoutparams.html">LayoutParams</a>
+					<a href="main.playerservices.html">PlayerServices</a>
 				</li>
 			</ul>
-			<h1>Interface LayoutParams</h1>
+			<h1>Interface PlayerServices</h1>
 		</div>
 	</div>
 </header>
@@ -70,7 +70,7 @@
 				<h3>Hierarchy</h3>
 				<ul class="tsd-hierarchy">
 					<li>
-						<span class="target">LayoutParams</span>
+						<span class="target">PlayerServices</span>
 					</li>
 				</ul>
 			</section>
@@ -81,13 +81,11 @@
 						<section class="tsd-index-section ">
 							<h3>Properties</h3>
 							<ul class="tsd-index-list">
-								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="layoutplugin.layoutparams.html#aspectratio" class="tsd-kind-icon">aspect<wbr>Ratio</a></li>
-								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="layoutplugin.layoutparams.html#background" class="tsd-kind-icon">background</a></li>
-								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="layoutplugin.layoutparams.html#crop" class="tsd-kind-icon">crop</a></li>
-								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="layoutplugin.layoutparams.html#offsetx" class="tsd-kind-icon">offsetX</a></li>
-								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="layoutplugin.layoutparams.html#offsety" class="tsd-kind-icon">offsetY</a></li>
-								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="layoutplugin.layoutparams.html#responsive" class="tsd-kind-icon">responsive</a></li>
-								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="layoutplugin.layoutparams.html#size" class="tsd-kind-icon">size</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="main.playerservices.html#auth" class="tsd-kind-icon">auth</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="main.playerservices.html#devicedetector" class="tsd-kind-icon">device<wbr>Detector</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="main.playerservices.html#logger" class="tsd-kind-icon">logger</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="main.playerservices.html#originprovider" class="tsd-kind-icon">origin<wbr>Provider</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="main.playerservices.html#widget" class="tsd-kind-icon">widget</a></li>
 							</ul>
 						</section>
 					</div>
@@ -96,72 +94,52 @@
 			<section class="tsd-panel-group tsd-member-group ">
 				<h2>Properties</h2>
 				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
-					<a name="aspectratio" class="tsd-anchor"></a>
-					<h3><span class="tsd-flag ts-flagOptional">Optional</span> aspect<wbr>Ratio</h3>
-					<div class="tsd-signature tsd-kind-icon">aspect<wbr>Ratio<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">PlayerAspectRatio</span></div>
+					<a name="auth" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagOptional">Optional</span> auth</h3>
+					<div class="tsd-signature tsd-kind-icon">auth<span class="tsd-signature-symbol">:</span> <a href="main.authproviderinterface.html" class="tsd-signature-type" data-tsd-kind="Interface">AuthProviderInterface</a></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in scripts/player/plugins/layout/index.ts:18</li>
+							<li>Defined in index.ts:33</li>
 						</ul>
 					</aside>
 				</section>
 				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
-					<a name="background" class="tsd-anchor"></a>
-					<h3><span class="tsd-flag ts-flagOptional">Optional</span> background</h3>
-					<div class="tsd-signature tsd-kind-icon">background<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div>
+					<a name="devicedetector" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagOptional">Optional</span> device<wbr>Detector</h3>
+					<div class="tsd-signature tsd-kind-icon">device<wbr>Detector<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">DeviceDetectorApi</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in scripts/player/plugins/layout/index.ts:19</li>
+							<li>Defined in index.ts:34</li>
 						</ul>
 					</aside>
 				</section>
 				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
-					<a name="crop" class="tsd-anchor"></a>
-					<h3><span class="tsd-flag ts-flagOptional">Optional</span> crop</h3>
-					<div class="tsd-signature tsd-kind-icon">crop<span class="tsd-signature-symbol">:</span> <a href="layoutplugin.crop.html" class="tsd-signature-type" data-tsd-kind="Interface">Crop</a></div>
+					<a name="logger" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagOptional">Optional</span> logger</h3>
+					<div class="tsd-signature tsd-kind-icon">logger<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">LoggerInterface</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in scripts/player/plugins/layout/index.ts:17</li>
+							<li>Defined in index.ts:32</li>
 						</ul>
 					</aside>
 				</section>
 				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
-					<a name="offsetx" class="tsd-anchor"></a>
-					<h3><span class="tsd-flag ts-flagOptional">Optional</span> offsetX</h3>
-					<div class="tsd-signature tsd-kind-icon">offsetX<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
+					<a name="originprovider" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagOptional">Optional</span> origin<wbr>Provider</h3>
+					<div class="tsd-signature tsd-kind-icon">origin<wbr>Provider<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">OriginProvider</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in scripts/player/plugins/layout/index.ts:15</li>
+							<li>Defined in index.ts:35</li>
 						</ul>
 					</aside>
 				</section>
 				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
-					<a name="offsety" class="tsd-anchor"></a>
-					<h3><span class="tsd-flag ts-flagOptional">Optional</span> offsetY</h3>
-					<div class="tsd-signature tsd-kind-icon">offsetY<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
+					<a name="widget" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagOptional">Optional</span> widget</h3>
+					<div class="tsd-signature tsd-kind-icon">widget<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">WidgetServiceInterface</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in scripts/player/plugins/layout/index.ts:14</li>
-						</ul>
-					</aside>
-				</section>
-				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
-					<a name="responsive" class="tsd-anchor"></a>
-					<h3><span class="tsd-flag ts-flagOptional">Optional</span> responsive</h3>
-					<div class="tsd-signature tsd-kind-icon">responsive<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">boolean</span></div>
-					<aside class="tsd-sources">
-						<ul>
-							<li>Defined in scripts/player/plugins/layout/index.ts:20</li>
-						</ul>
-					</aside>
-				</section>
-				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
-					<a name="size" class="tsd-anchor"></a>
-					<h3><span class="tsd-flag ts-flagOptional">Optional</span> size</h3>
-					<div class="tsd-signature tsd-kind-icon">size<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
-					<aside class="tsd-sources">
-						<ul>
-							<li>Defined in scripts/player/plugins/layout/index.ts:16</li>
+							<li>Defined in index.ts:36</li>
 						</ul>
 					</aside>
 				</section>
@@ -176,10 +154,10 @@
 					<li class=" tsd-kind-module">
 						<a href="../modules/core.html">Core</a>
 					</li>
-					<li class="current tsd-kind-module">
+					<li class=" tsd-kind-module">
 						<a href="../modules/layoutplugin.html">Layout<wbr>Plugin</a>
 					</li>
-					<li class=" tsd-kind-module">
+					<li class="current tsd-kind-module">
 						<a href="../modules/main.html">Main</a>
 					</li>
 					<li class=" tsd-kind-module">
@@ -198,44 +176,71 @@
 			</nav>
 			<nav class="tsd-navigation secondary menu-sticky">
 				<ul class="before-current">
+					<li class=" tsd-kind-reference tsd-parent-kind-module">
+						<a href="../modules/main.html#annotoplayer" class="tsd-kind-icon">Annoto<wbr>Player</a>
+					</li>
+					<li class=" tsd-kind-reference tsd-parent-kind-module">
+						<a href="../modules/main.html#layoutparams" class="tsd-kind-icon">Layout<wbr>Params</a>
+					</li>
+					<li class=" tsd-kind-reference tsd-parent-kind-module">
+						<a href="../modules/main.html#pippluginui" class="tsd-kind-icon">Pip<wbr>PluginUI</a>
+					</li>
+					<li class=" tsd-kind-reference tsd-parent-kind-module">
+						<a href="../modules/main.html#timecut" class="tsd-kind-icon">Time<wbr>Cut</a>
+					</li>
+					<li class=" tsd-kind-class tsd-parent-kind-module tsd-has-type-parameter">
+						<a href="../classes/main.waitfor.html" class="tsd-kind-icon">Wait<wbr>For</a>
+					</li>
+					<li class=" tsd-kind-class tsd-parent-kind-module">
+						<a href="../classes/main.widgetservice.html" class="tsd-kind-icon">Widget<wbr>Service</a>
+					</li>
 					<li class=" tsd-kind-interface tsd-parent-kind-module">
-						<a href="layoutplugin.crop.html" class="tsd-kind-icon">Crop</a>
+						<a href="main.authproviderinterface.html" class="tsd-kind-icon">Auth<wbr>Provider<wbr>Interface</a>
 					</li>
 				</ul>
 				<ul class="current">
 					<li class="current tsd-kind-interface tsd-parent-kind-module">
-						<a href="layoutplugin.layoutparams.html" class="tsd-kind-icon">Layout<wbr>Params</a>
+						<a href="main.playerservices.html" class="tsd-kind-icon">Player<wbr>Services</a>
 						<ul>
 							<li class=" tsd-kind-property tsd-parent-kind-interface">
-								<a href="layoutplugin.layoutparams.html#aspectratio" class="tsd-kind-icon">aspect<wbr>Ratio</a>
+								<a href="main.playerservices.html#auth" class="tsd-kind-icon">auth</a>
 							</li>
 							<li class=" tsd-kind-property tsd-parent-kind-interface">
-								<a href="layoutplugin.layoutparams.html#background" class="tsd-kind-icon">background</a>
+								<a href="main.playerservices.html#devicedetector" class="tsd-kind-icon">device<wbr>Detector</a>
 							</li>
 							<li class=" tsd-kind-property tsd-parent-kind-interface">
-								<a href="layoutplugin.layoutparams.html#crop" class="tsd-kind-icon">crop</a>
+								<a href="main.playerservices.html#logger" class="tsd-kind-icon">logger</a>
 							</li>
 							<li class=" tsd-kind-property tsd-parent-kind-interface">
-								<a href="layoutplugin.layoutparams.html#offsetx" class="tsd-kind-icon">offsetX</a>
+								<a href="main.playerservices.html#originprovider" class="tsd-kind-icon">origin<wbr>Provider</a>
 							</li>
 							<li class=" tsd-kind-property tsd-parent-kind-interface">
-								<a href="layoutplugin.layoutparams.html#offsety" class="tsd-kind-icon">offsetY</a>
-							</li>
-							<li class=" tsd-kind-property tsd-parent-kind-interface">
-								<a href="layoutplugin.layoutparams.html#responsive" class="tsd-kind-icon">responsive</a>
-							</li>
-							<li class=" tsd-kind-property tsd-parent-kind-interface">
-								<a href="layoutplugin.layoutparams.html#size" class="tsd-kind-icon">size</a>
+								<a href="main.playerservices.html#widget" class="tsd-kind-icon">widget</a>
 							</li>
 						</ul>
 					</li>
 				</ul>
 				<ul class="after-current">
 					<li class=" tsd-kind-interface tsd-parent-kind-module">
-						<a href="layoutplugin.layoutplugin-1.html" class="tsd-kind-icon">Layout<wbr>Plugin</a>
+						<a href="main.widgetoptions.html" class="tsd-kind-icon">Widget<wbr>Options</a>
 					</li>
 					<li class=" tsd-kind-interface tsd-parent-kind-module">
-						<a href="layoutplugin.layoutpluginoptions.html" class="tsd-kind-icon">Layout<wbr>Plugin<wbr>Options</a>
+						<a href="main.widgetserviceinterface.html" class="tsd-kind-icon">Widget<wbr>Service<wbr>Interface</a>
+					</li>
+					<li class=" tsd-kind-interface tsd-parent-kind-module">
+						<a href="main.widgetuxoptions.html" class="tsd-kind-icon">Widget<wbr>UxOptions</a>
+					</li>
+					<li class=" tsd-kind-type-alias tsd-parent-kind-module">
+						<a href="../modules/main.html#widgetposition" class="tsd-kind-icon">Widget<wbr>Position</a>
+					</li>
+					<li class=" tsd-kind-variable tsd-parent-kind-module">
+						<a href="../modules/main.html#defaultlogger" class="tsd-kind-icon">default<wbr>Logger</a>
+					</li>
+					<li class=" tsd-kind-variable tsd-parent-kind-module">
+						<a href="../modules/main.html#defaultwidget" class="tsd-kind-icon">default<wbr>Widget</a>
+					</li>
+					<li class=" tsd-kind-function tsd-parent-kind-module">
+						<a href="../modules/main.html#annotoplayer-1" class="tsd-kind-icon">annoto<wbr>Player</a>
 					</li>
 				</ul>
 			</nav>
